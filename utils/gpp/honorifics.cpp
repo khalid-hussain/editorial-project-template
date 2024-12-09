@@ -24,7 +24,7 @@
 #define S_HIM عليه السلام
 #define S_HER عليها السلام
 #define S_TWO عليهما السلام
-#define S_TWO عليهم السلام
+#define S_THM عليهم السلام
 
 #define SS_HIM عليه الصلاة والسلام
 #define SS_HER عليه الصلاة والسلام
