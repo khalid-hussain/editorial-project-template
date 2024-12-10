@@ -1,8 +1,8 @@
 compile-macros:
-	cat honorifics.cpp parastyles.cpp > _macros.txt
+	cat honorifics.pp quran-loc.pp parastyles.pp > _macros.pp
 
 macros-english:
-	gpp tests/testContent.md -DHONORIFICS_ENG > tests/resultEnglish.md
+	gpp tests/testContent.md -DHONORIFICS_ENG -DREF_SURAH_NAME -DLONG_SURAH_REF > tests/resultEnglish.md
 
 macros-arabic:
 	gpp tests/testContent.md > tests/resultArabic.md
