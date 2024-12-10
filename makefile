@@ -14,7 +14,15 @@ CONTENT = $(FM) $(MM)
 default: docx
 
 docx:
-	gpp $(MACROS) $(METADATA) $(CONTENT) | \
+	cat $(MACROS) $(METADATA) $(CONTENT) | \
+	gpp |
 	pandoc \
 	-t docx \
 	-o dist/$(TODAY).docx
+
+epub:
+	cat $(MACROS) $(METADATA) $(CONTENT) | \
+	gpp | \
+	pandoc \
+	-t epub3 \
+	-o dist/$(TODAY).epub
