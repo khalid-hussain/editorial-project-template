@@ -15,7 +15,7 @@ default: docx
 
 docx:
 	cat $(MACROS) $(METADATA) $(CONTENT) | \
-	gpp |
+	gpp | \
 	pandoc \
 	-t docx \
 	-o dist/$(TODAY).docx
