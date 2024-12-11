@@ -24,5 +24,5 @@ epub:
 	cat $(MACROS) $(METADATA) $(CONTENT) | \
 	gpp | \
 	pandoc \
-	-t epub3 \
+	-t epub3 -s \
 	-o dist/$(TODAY).epub
