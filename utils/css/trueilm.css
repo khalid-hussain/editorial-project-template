@@ -26,6 +26,14 @@ p.author {
   text-align: center;
 }
 
+.quran-arabic {
+  font-family: "QuranFont";
+}
+
+.hadith-arabic {
+  font-family: "ArabicFont";
+}
+
 .quran {
   padding-left: 4em;
   position: relative;
@@ -62,7 +70,7 @@ p.author {
   top: 0.5em;
 }
 
-blockquote{
+blockquote {
   padding-left: 4em;
   position: relative;
 }
@@ -73,4 +81,3 @@ blockquote::before {
   position: absolute;
   left: 1em;
 }
-
