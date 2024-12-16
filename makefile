@@ -14,15 +14,33 @@ CONTENT = $(FM) $(MM)
 default: docx
 
 docx:
-	cat $(MACROS) $(METADATA) $(CONTENT) | \
-	gpp | \
-	pandoc \
-	-t docx \
+	for file in $(CONTENT); do \
+		fifo=$$(mktemp -u); \
+		FIFOS+=("$$fifo"); \
+		cat $(MACROS) "$$file" | \
+		$(GPP) -DWORD -x -o "$$fifo" & \
+	done; \
+	pandoc metadata.yaml "$${FIFOS[@]}" -f markdown -t docx \
+	--citeproc --csl $(CSL) \
+	--reference-doc=$(TEMPLATE) \
+	--file-scope \
 	-o dist/$(TODAY).docx
 
 epub:
-	cat $(MACROS) $(METADATA) $(CONTENT) | \
-	gpp | \
-	pandoc \
+	for file in $(CONTENT); do \
+		fifo=$$(mktemp -u); \
+		FIFOS+=("$$fifo"); \
+		cat $(MACROS) "$$file" | \
+		$(GPP) -DEPUB -x -o "$$fifo" & \
+	done; \
+	pandoc metadata.yaml "$${FIFOS[@]}" \
+	-f markdown \
 	-t epub3 -s \
-	-o dist/$(TODAY).epub
+	--css=./utils/css/boilerplate.css \
+	--css=./utils/css/trueilm.css \
+	--epub-embed-font=./utils/fonts/UthmanTN1Ver20.ttf \
+	--epub-embed-font=./utils/fonts/UthmanicHafs_V22.ttf \
+	--citeproc --csl $(CSL) \
+	--file-scope \
+	-o dist/$(TODAY)-sealed-nectar.epub
+
