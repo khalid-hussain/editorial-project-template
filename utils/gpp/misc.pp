@@ -9,4 +9,6 @@
 \define{BINT}{bt.}
 \endif
 
+\define{\SC{term}}{[\term]{.smallcaps}}
+
 \mode{standard}{default}
