@@ -1,7 +1,7 @@
 TODAY = $(shell date +'%Y%m%d-%H%M')
 MACROS = utils/gpp/macros.md
-TEMPLATE = template.docx
-CSL = chicago-fullnote-bibliography-short-title-subsequent.csl
+TEMPLATE = utils/template.docx
+CSL = utils/chicago-fullnote-bibliography-short-title-subsequent.csl
 
 GPP = utils/gpp/gpp.exe
 MACROS = utils/gpp/_macros.pp
