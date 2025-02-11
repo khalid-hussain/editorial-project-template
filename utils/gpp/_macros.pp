@@ -1,6 +1,8 @@
 
 #mode standard tex
 
+\define{\SC{term}}{[\term]{.smallcaps}}
+
 \ifndef{HONORIFICS_ENG}
 \define{\hon{phrase}{char_style}}{[\phrase]{custom-style="\char_style" lang="ar" dir="rtl"}}
 \else
@@ -98,3 +100,6 @@
 \endif
 
 \mode{standard}{default}
+
+#mode standard tex
+
