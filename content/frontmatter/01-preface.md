@@ -6,6 +6,8 @@ would have been on this Planet. It would not have prompted the poet to say
 “Neither be a Lender, nor a Borrower Be.” Alas! Given the realities in life,
 this could remain at best a wishful thinking.
 
+The Prophet \hon{\PBUH}{\BODY} said, “Deeds are by intention.”
+
 So their business is to lend and lend more. Their proficiency; skill; competency
 are all tested in how much they lend and how much they \SC{recover} and how
 quickly. Suffice it would be to state that this can be likened to the vigour and
