@@ -1,10 +1,11 @@
 SHELL = /bin/bash
+PLATFORM := $(shell uname)
 TODAY = $(shell date +'%Y%m%d-%H%M')
 MACROS = utils/gpp/macros.md
 TEMPLATE = utils/template.docx
 CSL = utils/chicago-fullnote-bibliography-short-title-subsequent.csl
 
-ifeq ($(UNAME), Linux)
+ifeq ($(PLATFORM),Linux)
 GPP = gpp
 else
 GPP = utils/gpp/gpp.exe
