@@ -1,9 +1,14 @@
+SHELL = /bin/bash
 TODAY = $(shell date +'%Y%m%d-%H%M')
 MACROS = utils/gpp/macros.md
 TEMPLATE = utils/template.docx
 CSL = utils/chicago-fullnote-bibliography-short-title-subsequent.csl
 
 GPP = utils/gpp/gpp.exe
+ifeq ($(UNAME), Linux)
+GPP = gpp
+endif
+
 MACROS = utils/gpp/_macros.pp
 
 METADATA = metadata.yaml
