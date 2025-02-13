@@ -4,9 +4,10 @@ MACROS = utils/gpp/macros.md
 TEMPLATE = utils/template.docx
 CSL = utils/chicago-fullnote-bibliography-short-title-subsequent.csl
 
-GPP = utils/gpp/gpp.exe
 ifeq ($(UNAME), Linux)
 GPP = gpp
+else
+GPP = utils/gpp/gpp.exe
 endif
 
 MACROS = utils/gpp/_macros.pp
