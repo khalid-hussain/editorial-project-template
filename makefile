@@ -66,7 +66,7 @@ chunkedhtml:
 html5:
 	for file in $(CONTENT); do \
 		cat $(MACROS) metadata.yaml "$$file" | \
-		$(GPP) -DWORD -x | \
+		$(GPP) -DEPUB -x | \
 		pandoc -f markdown -t html5 -s \
 		--citeproc --csl $(CSL) \
 		-o dist/"$$file".html & \
