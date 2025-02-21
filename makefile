@@ -51,3 +51,32 @@ epub:
 	--file-scope \
 	-o dist/$(TODAY)-sealed-nectar.epub
 
+chunkedhtml:
+	for file in $(CONTENT); do \
+		fifo=$$(mktemp -u); \
+		FIFOS+=("$$fifo"); \
+		cat $(MACROS) "$$file" | \
+		$(GPP) -DWORD -x -o "$$fifo" & \
+	done; \
+	pandoc metadata.yaml "$${FIFOS[@]}" -f markdown -t chunkedhtml \
+	--citeproc --csl $(CSL) \
+	--file-scope \
+	-o dist/chunkedhtml
+
+html5:
+	for file in $(CONTENT); do \
+		cat $(MACROS) metadata.yaml "$$file" | \
+		$(GPP) -DWORD -x | \
+		pandoc -f markdown -t html5 -s \
+		--citeproc --csl $(CSL) \
+		-o dist/"$$file".html & \
+	done
+
+clean:
+	rm -rf dist/chunkedhtml
+	rm dist/content/frontmatter/*.*
+	rm dist/content/mainmatter/*.*
+	rm dist/content/backmatter/*.*
+
+# https://stackoverflow.com/questions/9532654/expression-after-last-specific-character
+# ${foo##*/}
