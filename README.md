@@ -8,6 +8,14 @@ It relies on the following:
 
 1. [Pandoc]
 2. [GPP] - a binary for Windows systems is provided in `utils/gpp`. For other systems, follow instructions on the official website.
+3. GNU Make - this comes out-of-the-box on Linux and macOS systems. It has to be installed on Windows systems.
+
+## Fonts
+
+For Arabic content, we use the fonts provided by the King Fahad Glorious Quran Printing Complex (KFGQPC).
+This combination is recommended so as to maintain the same line height for Arabic content.
+Using other combinations is not an issue if line height can be maintained, e.g. using InDesign.
+This is harder if not impossible to achieve in the EPUB format.
 
 ## Preprocessor macros
 
@@ -16,15 +24,9 @@ We use [GPP] for this task.
 There are macros for different tasks:
 
 1. Honorifics;
-2. *Āyah* reference helpers; and
+2. *Āyah* reference helpers;
+3. *Ḥadīth* reference helpers; and
 3. Paragraph and character styles.
-
-## Fonts
-
-For Arabic content, we use the fonts provided by the King Fahad Glorious Quran Printing Complex (KFGQPC).
-This combination is recommended so as to maintain the same line height for Arabic content.
-Using other combinations is not an issue if line height can be maintained, e.g. using InDesign.
-This is harder if not impossible to achieve in the EPUB format.
 
 ## Helpers for Honorifics
 
@@ -35,7 +37,38 @@ in `utils/gpp/honorifics.pp` and `LOCATION` is one of the following: `HEADER`,
 
 ## Helpers for *Āyah* reference
 
-...
+An *āyah* reference consists of two parts: (1) Arabic text and (2) its translation.
+The former is followed immediately by the latter.
+This is demonstrated in the following snippet:
+
+```
+\AYAH_AR_START
+خِتَٰمُهُۥ مِسۡكٞۚ وَفِي ذَٰلِكَ فَلۡيَتَنَافَسِ ٱلۡمُتَنَٰفِسُونَ ٢٦
+\AYAH_AR_END
+
+\AYAH_START
+The last of it is musk. So for this let the competitors compete. (Q83:26)
+\AYAH_END
+```
+
+The content for the Arabic part of the *āyah* can be retrieved from `utils/quran/quran-ayah-getter.ipynb`.
+It's a Jupyter notebook and has methods to extract content from the Quran data CSV file `hafsData_v18.csv`.
+
+## Helpers for *Ḥadīth* reference
+
+A *ḥadīth* reference consists of two parts: (1) Arabic text and (2) its translation.
+The former is followed immediately by the latter.
+This is demonstrated in the following snippet:
+
+```
+\HADITH_AR_START
+إنما الأعمال بالنيات.
+\HADITH_AR_END
+
+\HADITH_START
+“Deeds are by intention.”
+\HADITH_END
+```
 
 ## Helpers for paragraph and character styles
 
@@ -48,6 +81,8 @@ It uses Pandoc's citation processor.
 The citation style is [Chicago fullnote (shortitle subsequent)];
 It is preferred over styles which used “Ibid.” for subsequent mentions because it is inconvenient for digital formats such as EPUB3.
 It also allows adding other content to the footnote along with the reference.
+
+This should only be used if the book is to be re-edited, otherwise, reference content should just be copied as is.
 
 ## Starting checklist
 
@@ -71,3 +106,11 @@ For other than syntax errors, macro expansion from [GPP] usually, if not always,
 [GPP]: https://files.nothingisreal.com/software/gpp/gpp.html
 [Chicago fullnote (shortitle subsequent)]: https://www.zotero.org/styles/chicago-fullnote-bibliography-short-title-subsequent
 [small caps]: https://en.wikipedia.org/wiki/Small_caps
+
+## Guidelines
+
+1. Ensure one-line space between headers and the first paragraphs.
+
+2. Footnote content is best placed right after the paragraph in which its marker is placed.
+
+3. Quran and Ḥadīth references need to be manually typed at the end of their translations.
