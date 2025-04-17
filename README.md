@@ -30,10 +30,10 @@ There are macros for different tasks:
 
 ## Helpers for Honorifics
 
-Use `\hon{SHORTCODE}{LOCATION}` where `SHORTCODE` is one of the shortcodes found
+Use `\hon{\SHORTCODE}{\LOCATION}` where `SHORTCODE` is one of the shortcodes found
 in `utils/gpp/honorifics.pp` and `LOCATION` is one of the following: `HEADER`,
 `BODY`, or `FOOTER`. So to send salutations on the Prophet in the body text, use
-`\hon{PBUH}{BODY}`.
+`\hon{\PBUH}{\BODY}`.
 
 ## Helpers for *Āyah* reference
 
@@ -82,7 +82,29 @@ The citation style is [Chicago fullnote (shortitle subsequent)];
 It is preferred over styles which used “Ibid.” for subsequent mentions because it is inconvenient for digital formats such as EPUB3.
 It also allows adding other content to the footnote along with the reference.
 
-This should only be used if the book is to be re-edited, otherwise, reference content should just be copied as is.
+This should only be used if the book is to be re-edited, otherwise, reference
+content should just be copied as is.
+
+## Misc. info
+
+If frontmatter content ends with its author's information, such as name, date of
+writing, and place of writing, these are to be surrounded by the custom style
+tags:
+
+```
+::: {custom-style="left-ragged"}
+Content Line 1  
+Content Line 2  
+Content Line 3  
+...
+:::
+```
+
+...where each line with the exception of the last line is followed by a double space.
+
+Even if the content block aligned, it is to be aligned left. This is because if
+the content is exported for EPUBs, right-alignment might be overridden by user
+preference.
 
 ## Starting checklist
 
@@ -114,3 +136,15 @@ For other than syntax errors, macro expansion from [GPP] usually, if not always,
 2. Footnote content is best placed right after the paragraph in which its marker is placed.
 
 3. Quran and Ḥadīth references need to be manually typed at the end of their translations.
+
+4. The conventional order of English book frontmatter is:
+
+      i. Dedication
+
+     ii. Foreword
+
+    iii. Preface
+
+     iv. acknowledgements
+
+      v. Contents
