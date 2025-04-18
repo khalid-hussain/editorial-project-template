@@ -1,3 +1,3 @@
 
 
-#mode standard tex
+#mode user "\\" "" "{" "}{" "}" "{" "}" "#" "@"

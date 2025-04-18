@@ -28,6 +28,7 @@ docx:
 		$(GPP) -DWORD -x -o "$$fifo" & \
 	done; \
 	pandoc metadata.yaml "$${FIFOS[@]}" -f markdown -t docx \
+	--bibliography=utils/master.bib \
 	--citeproc --csl $(CSL) \
 	--reference-doc=$(TEMPLATE) \
 	--file-scope \

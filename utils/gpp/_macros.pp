@@ -171,4 +171,4 @@
 \mode{standard}{default}
 
 
-#mode standard tex
+#mode user "\\" "" "{" "}{" "}" "{" "}" "#" "@"
