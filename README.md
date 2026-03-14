@@ -1,6 +1,13 @@
 
 # Editorial Project Template
 
+## TODO
+
+1. Add translation macro to template.
+1. Add date and time generation to template.
+1. Check design font in template.
+1. Fix English target/Arabic source alignment in template.
+
 ## Dependencies
 
 This is an editorial template which can be used to manage Islamic book projects.
