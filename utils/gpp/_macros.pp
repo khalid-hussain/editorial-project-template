@@ -10,9 +10,9 @@
 \mode{standard}{cpp}
 
 // Character styles
-#define HEADER honorifics_header
-#define BODY honorifics_body
-#define FOOTER honorifics_foot
+#define HEADER Char Header Honorifics
+#define BODY Char Body Honorifics
+#define FOOTER Char Footer Honorifics
 
 #ifndef HONORIFICS_ENG
 
@@ -168,7 +168,39 @@
 
 \define{\SC{term}}{[\term]{.smallcaps}}
 
-\mode{standard}{default}
+\mode{standard}{cpp}
+/* ======================
+        Translation related
+   ======================*/
+#mode standard tex
+
+\define{\trans{arabic}{english}}{
+
+\ifndef{FINAL}
+::: {custom-style="Arabic Source" dir="rtl"}
+\arabic
+:::
+
+::: {custom-style="English Target"}
+\english
+:::
+\else
+\english
+\endif
+}
+
+\define{\note{text}}{[NOTE: \text]{custom-style="Highlight C1"}}
+
+\define{\c1{text}}{[\text]{custom-style="Highlight C1"}}
+\define{\c2{text}}{[\text]{custom-style="Highlight C2"}}
+\define{\c3{text}}{[\text]{custom-style="Highlight C3"}}
+\define{\c4{text}}{[\text]{custom-style="Highlight C4"}}
+\define{\warn{text}}{[\text]{custom-style="Highlight Warn"}}
+
+\mode{standard}{cpp}
+#define printDate #date (%a) %d %b %Y %I:%M%p
+
+#mode standard default
 
 
 #mode user "\\" "" "{" "}{" "}" "{" "}" "#" "@"
