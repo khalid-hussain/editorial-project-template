@@ -41,6 +41,5 @@
 \define{\warn{text}}{[\text]{custom-style="Highlight Warn"}}
 
 \mode{standard}{cpp}
-#define printDate #date (%a) %d %b %Y %I:%M%p
 
 #mode standard default

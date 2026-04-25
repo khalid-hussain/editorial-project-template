@@ -16,7 +16,7 @@ MACROS = utils/gpp/_macros.pp
 METADATA = metadata.yaml
 FM = content/frontmatter/*.md
 MM = content/mainmatter/*.md
-CONTENT = $(FM) $(MM)
+CONTENT = $(METADATA) $(FM) $(MM)
 
 default: docx
 
@@ -25,9 +25,9 @@ docx:
 		fifo=$$(mktemp -u); \
 		FIFOS+=("$$fifo"); \
 		cat $(MACROS) "$$file" | \
-		$(GPP) -DWORD -x -o "$$fifo" & \
+		$(GPP) -DWORD -DNOW="$(shell date '+%a %d %b %Y %I:%M%p')" -x -o "$$fifo" & \
 	done; \
-	pandoc metadata.yaml "$${FIFOS[@]}" -f markdown -t docx \
+	pandoc "$${FIFOS[@]}" -f markdown -t docx \
 	--bibliography=utils/master.bib \
 	--citeproc --csl $(CSL) \
 	--reference-doc=$(TEMPLATE) \
