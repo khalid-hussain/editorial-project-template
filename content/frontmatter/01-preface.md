@@ -18,11 +18,11 @@ we wrote from Aḥmad's \c1{manuscript} \c2{نُسْخَتِهِ} and the wordin
 my father told us, who said,
     ‘I heard Muḥammad ibn Isḥāq \c1{يُحَدِّثُ} from Yaʿqūb ibn ʿUtbah, from Jubayr ibn Muḥammad ibn Jubayr ibn Muṭʿim, from his
     father, from his grandfather \warn{Double check this chain}, who said,
-        “A bedouin came to the Messenger of Allāh \BPBUH and said,
+        “A bedouin came to the Messenger of Allāh \hon{\PBUH}{\BODY} and said,
             ‘O Messenger of Allāh, our souls are weary, our families are hungry, our wealth is exhausted, and our
             livestock have perished. So, seek rain from Allāh for us, for we seek
             intercession through you with Allāh, and we seek Allāh's intercession for you.’
-        So the Messenger of Allāh \BPBUH said, «Woe to you, do you know what you are saying?»
+        So the Messenger of Allāh \hon{\PBUH}{\BODY} said, «Woe to you, do you know what you are saying?»
         The Messenger of Allāh glorified Allāh (*tasbīḥ*), and he kept on doing so until it became apparent on the faces of his companions.[^tsbhfaces] He then said, «Woe to you! Do you know what is \c1{ADD WORD?} Allāh? Verily, His Throne is above
         the heavens like this -- and he made his hand into dome-like shape (with the
         palm facing downwards and the fingers spread out in a circular fashion with
