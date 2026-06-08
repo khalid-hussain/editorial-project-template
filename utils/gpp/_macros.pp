@@ -10,9 +10,9 @@
 \mode{standard}{cpp}
 
 // Character styles
-#define HEADER honorifics_header
-#define BODY honorifics_body
-#define FOOTER honorifics_foot
+#define HEADER Char Header Honorifics
+#define BODY Char Body Honorifics
+#define FOOTER Char Footer Honorifics
 
 #ifndef HONORIFICS_ENG
 
@@ -184,5 +184,6 @@
 }
 
 \mode{standard}{default}
+
 
 #mode user "\\" "" "{" "}{" "}" "{" "}" "#" "@"
