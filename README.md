@@ -82,6 +82,15 @@ This is demonstrated in the following snippet:
 For [small caps], use `\SC{term}`.
 Internally, this expands to `[term]{.smallcaps}`.
 
+## Helpers for Generation Date in YAML
+
+You can use `\NOW` for the date.
+The format is specified in the `makefile`.
+It uses GPP to inject the date created from the shell where the `\NOW` command exists.
+
+I've also vibe coded the `inject-date.lua` but I have not tested it.
+Eventually I want to reduce the amount of dependencies for the project to make it more portable.
+
 ## References
 
 It uses Pandoc's citation processor.
