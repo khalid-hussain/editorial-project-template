@@ -28,6 +28,7 @@ docx:
 		$(GPP) -DWORD -DNOW="$(shell date '+%a %d %b %Y %I:%M%p')" -x -o "$$fifo" & \
 	done; \
 	pandoc "$${FIFOS[@]}" -f markdown -t docx \
+	--number-sections \
 	--bibliography=utils/master.bib \
 	--citeproc --csl $(CSL) \
 	--reference-doc=$(TEMPLATE) \
