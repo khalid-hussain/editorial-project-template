@@ -168,7 +168,21 @@
 
 \define{\SC{term}}{[\term]{.smallcaps}}
 
-\mode{standard}{default}
+\define{\trans{arabic}{english}}{
 
+\ifndef{FINAL}
+::: {custom-style="Arabic Source" dir="rtl"}
+\arabic
+:::
+
+::: {custom-style="English Target"}
+\english
+:::
+\else
+\english
+\endif
+}
+
+\mode{standard}{default}
 
 #mode user "\\" "" "{" "}{" "}" "{" "}" "#" "@"
