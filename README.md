@@ -1,6 +1,13 @@
 
 # Editorial Project Template
 
+## TODO
+
+1. Add translation macro to template.
+1. Add date and time generation to template.
+1. Check design font in template.
+1. Fix English target/Arabic source alignment in template.
+
 ## Dependencies
 
 This is an editorial template which can be used to manage Islamic book projects.
@@ -75,6 +82,15 @@ This is demonstrated in the following snippet:
 For [small caps], use `\SC{term}`.
 Internally, this expands to `[term]{.smallcaps}`.
 
+## Helpers for Generation Date in YAML
+
+You can use `\NOW` for the date.
+The format is specified in the `makefile`.
+It uses GPP to inject the date created from the shell where the `\NOW` command exists.
+
+I've also vibe coded the `inject-date.lua` but I have not tested it.
+Eventually I want to reduce the amount of dependencies for the project to make it more portable.
+
 ## References
 
 It uses Pandoc's citation processor.
@@ -148,3 +164,24 @@ For other than syntax errors, macro expansion from [GPP] usually, if not always,
      iv. acknowledgements
 
       v. Contents
+
+# Roadmap
+
+The following are some things that I want to tackle eventually:
+
+1. Reduce the number of dependencies so as to make the template more portable,
+   requiring lesser work from the user.
+1. Add Typst as an export option with decent A4 and A5 templates.
+1. 
+
+## Typst Template
+
+The Typst template should do the following:
+
+1. Allow user-defined fonts.
+1. Allow user-defined page sizes and margin sizes.
+1. Predefined fonts for English and Arabic with overrides possible by the user.
+1. Predefined functions for Quran text, Ḥadīth text, and Translation blocks.
+1. Custom bibliography style for common Ḥadīth books, e.g. _Ṣaḥīḥ al-Bukhārī_,
+   vol. 2, p. 100, #500 (instead of) _Ṣaḥīḥ al-Bukhārī_, Muḥammad ibn Ismāʿīl
+   al-Bukhārī (Dār al-Taʾṣīl, Cairo: 2000) vol. 2, p. 100, #500.
