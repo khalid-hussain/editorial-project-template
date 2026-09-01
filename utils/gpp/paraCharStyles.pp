@@ -31,9 +31,9 @@
 \define{LIST_HADITH_START}{::: {custom-style="list-hadith-trans"}}
 \define{LIST_HADITH_END}{:::}
 
-\define{AR_START}{::: {custom-style="hadith-arabic" lang="ar" dir="rtl"}}
+\define{AR_START}{::: {custom-style="arabic-text" lang="ar" dir="rtl"}}
 \define{AR_END}{:::}
-\define{EN_START}{::: {custom-style="hadith-trans"}}
+\define{EN_START}{::: {custom-style="arabic-text-trans"}}
 \define{EN_END}{:::}
 \endif
 
