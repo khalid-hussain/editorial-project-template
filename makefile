@@ -2,7 +2,8 @@ SHELL = /bin/bash
 PLATFORM := $(shell uname)
 TODAY = $(shell date +'%Y%m%d-%H%M')
 MACROS = utils/gpp/macros.md
-TEMPLATE = utils/template.docx
+DOCX_TEMPLATE = utils/template.docx
+ODT_TEMPLATE = utils/template.odt
 CSL = utils/chicago-fullnote-bibliography-short-title-subsequent.csl
 
 ifeq ($(PLATFORM),Linux)
@@ -20,6 +21,10 @@ CONTENT = $(METADATA) $(FM) $(MM)
 
 default: docx
 
+init:
+	mkdir ref
+	mkdir dist
+
 docx:
 	for file in $(CONTENT); do \
 		fifo=$$(mktemp -u); \
@@ -34,6 +39,22 @@ docx:
 	--reference-doc=$(TEMPLATE) \
 	--file-scope \
 	-o dist/$(TODAY).docx
+
+odt:
+	for file in $(CONTENT); do \
+		fifo=$$(mktemp -u); \
+		FIFOS+=("$$fifo"); \
+		cat $(MACROS) "$$file" | \
+		$(GPP) -DWORD -DNOW="$(shell date '+%a %d %b %Y %I:%M%p')" -x -o "$$fifo" & \
+	done; \
+	pandoc "$${FIFOS[@]}" -f markdown -t odt \
+	--number-sections \
+	--bibliography=utils/master.bib \
+	--citeproc --csl $(CSL) \
+	--file-scope \
+	-o dist/$(TODAY).odt
+
+# 	--reference-doc=$(ODT_TEMPLATE)
 
 epub:
 	for file in $(CONTENT); do \
