@@ -40,14 +40,10 @@
 \define{\c4{text}}{[\text]{custom-style="Highlight C4"}}
 \define{\warn{text}}{[\text]{custom-style="Highlight Warn"}}
 
-\mode{standard}{cpp}
-
-#mode standard default
-
 \define{\trans{arabic}{english}}{
 
 \ifndef{FINAL}
-::: {custom-style="Arabic Source" dir="rtl"}
+::: {custom-style="Arabic Source" lang="ar" dir="rtl"}
 \arabic
 :::
 
@@ -58,3 +54,5 @@
 \english
 \endif
 }
+
+\mode{standard}{default}
