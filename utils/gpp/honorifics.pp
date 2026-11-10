@@ -57,7 +57,7 @@
 #define S_HIM (Peace be on him)
 #define S_HER (Peace be on her)
 #define S_TWO (Peace be on them both)
-#define S_TWO (Peace be on them)
+#define S_THM (Peace be on them)
 
 #define SS_HIM عليه الصلاة والسلام
 #define SS_HER عليه الصلاة والسلام
