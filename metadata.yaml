@@ -1,7 +1,14 @@
 ---
 title: Concise Biography of the Prophet
 author: Ibn Ḥazm
-date: DATE
 lang: en-US
 reference-section-title: Bibliography
+# Leave out `date:` and the build fills in the build time.
+template:
+  edition: draft          # draft | final
+  honorifics: arabic      # arabic | english
+  quran-citation: short   # short | long
+  ayah-numbers: always    # always | ended | never
+  epub:
+    honorifics: english   # Arabic honorifics currently disturb EPUB line spacing
 ---
