@@ -1,0 +1,9 @@
+---
+title: Sample Book
+author: Template Test
+lang: en-US
+reference-section-title: Bibliography
+template:
+  epub:
+    honorifics: english
+---
