@@ -36,7 +36,7 @@ docx:
 	--number-sections \
 	--bibliography=utils/master.bib \
 	--citeproc --csl $(CSL) \
-	--reference-doc=$(TEMPLATE) \
+	--reference-doc=$(DOCX_TEMPLATE) \
 	--file-scope \
 	-o dist/$(TODAY).docx
 
