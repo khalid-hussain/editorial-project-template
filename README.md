@@ -1,187 +1,151 @@
-
 # Editorial Project Template
 
-## TODO
+A template for editing and translating Islamic books. You write in Markdown and get DOCX, ODT, EPUB and HTML out of it. Qurʾān quotations are filled in from the bundled Ḥafṣ text, so they are never copied by hand.
 
-1. Add translation macro to template.
-1. Add date and time generation to template.
-1. Check design font in template.
-1. Fix English target/Arabic source alignment in template.
+## Setup
 
-## Dependencies
+You need one program: **[Pandoc] 3.9.0.1 or newer**.
 
-This is an editorial template which can be used to manage Islamic book projects.
-It relies on the following:
+| System | Install |
+|---|---|
+| macOS | `brew install pandoc` |
+| Windows | `winget install JohnMacFarlane.Pandoc` |
+| Linux | the `.deb` or tarball from the [Pandoc releases page](https://github.com/jgm/pandoc/releases). Distribution packages are usually too old. |
 
-1. [Pandoc]
-2. [GPP] - a binary for Windows systems is provided in `utils/gpp`. For other systems, follow instructions on the official website.
-3. GNU Make - this comes out-of-the-box on Linux and macOS systems. It has to be installed on Windows systems.
+Check it with `pandoc --version`. Nothing else is needed: no Make, no Python, no particular shell or editor.
+
+## Building
+
+Run every command from this folder:
+
+```
+pandoc lua build.lua                        a DOCX draft
+pandoc lua build.lua docx epub              several formats
+pandoc lua build.lua all                    docx, odt, epub, chunkedhtml and html5
+pandoc lua build.lua epub edition=final     change an option for one build
+pandoc lua build.lua help                   formats, options and their current values
+pandoc lua build.lua clean                  delete dist/
+```
+
+Output goes to `dist/`, named after the date and the book title, for example `dist/20261110-1432-concise-biography-of-the-prophet.docx`.
+
+**If something is wrong, nothing is written.** The build lists every problem with its file and line, then stops:
+
+```
+content/frontmatter/03-preface.md:12: error: unknown class "hadeeth" (did you mean "hadith"?)
+
+1 error, 0 warnings. Nothing was written.
+```
+
+Warnings (for example a class the template doesn't know) don't stop a draft. A **final** edition treats every warning as an error. Add `--strict` to a draft build to get the same checks.
+
+## Starting a book
+
+1. Clone the repository.
+2. Fill in `metadata.yaml`: title, author, language, and the `template:` options (see below).
+3. Write Markdown files in `content/frontmatter/`, `content/mainmatter/` and, if needed, `content/backmatter/`. Files are built in name order, so number them: `01-preface.md`, `02-…`. `content/copyright.md` comes first if it has any text.
+   - Front-matter headings are usually unnumbered: `# Preface {.unnumbered}`.
+   - Most books split naturally into one file per chapter. If a long book doesn't, split it anyway.
+4. Run `pandoc lua build.lua`.
+
+## Writing
+
+The **[authoring guide](docs/authoring-guide.md)** covers everything with examples. In short:
+
+| You write | You get |
+|---|---|
+| `[pbuh]{.hon}` | an honorific in Arabic or English, styled for heading, body or footnote |
+| `::: {.ayah ref="21:107"}` + translation + `:::` | the ayah in Arabic from the Ḥafṣ data, the translation, and `(Q21:107)` |
+| `::: hadith` + Arabic + translation + `:::` | a hadith with its translation |
+| `::: trans` + Arabic + English + `:::` | a translation pair; the final edition keeps only the English |
+| `[21:107]{.q}` | the citation `(Q21:107)` |
+| `[text]{.note}`, `.c1`–`.c4`, `.warn` | editorial highlights (drafts only) |
+| `[@saadi02, 12]` | a Chicago full-note citation from `utils/master.bib` |
+
+To see the ayah Arabic in your source files while reviewing, run `pandoc lua build.lua resolve`. `unresolve` takes it out again.
+
+## Options
+
+Set options in `metadata.yaml`. Override any of them for one build on the command line (`edition=final`).
+
+```yaml
+template:
+  edition: draft          # draft | final
+  honorifics: arabic      # arabic | english
+  quran-citation: short   # short (Q21:107) | long (al-Anbiyāʾ, Q21:107)
+  ayah-numbers: always    # always | ended | never
+  epub:                   # any format can override any option
+    honorifics: english
+```
 
 ## Fonts
 
-For Arabic content, we use the fonts provided by the King Fahad Glorious Quran Printing Complex (KFGQPC).
-This combination is recommended so as to maintain the same line height for Arabic content.
-Using other combinations is not an issue if line height can be maintained, e.g. using InDesign.
-This is harder if not impossible to achieve in the EPUB format.
-
-## Preprocessor macros
-
-The template makes use of a lot of macros to simplify repetitive tasks.
-We use [GPP] for this task.
-There are macros for different tasks:
-
-1. Honorifics;
-2. *Āyah* reference helpers;
-3. *Ḥadīth* reference helpers; and
-3. Paragraph and character styles.
-
-## Helpers for Honorifics
-
-Use `\hon{\SHORTCODE}{\LOCATION}` where `SHORTCODE` is one of the shortcodes found
-in `utils/gpp/honorifics.pp` and `LOCATION` is one of the following: `HEADER`,
-`BODY`, or `FOOTER`. So to send salutations on the Prophet in the body text, use
-`\hon{\PBUH}{\BODY}`.
-
-## Helpers for *Āyah* reference
-
-An *āyah* reference consists of two parts: (1) Arabic text and (2) its translation.
-The former is followed immediately by the latter.
-This is demonstrated in the following snippet:
-
-```
-\AYAH_AR_START
-خِتَٰمُهُۥ مِسۡكٞۚ وَفِي ذَٰلِكَ فَلۡيَتَنَافَسِ ٱلۡمُتَنَٰفِسُونَ ٢٦
-\AYAH_AR_END
-
-\AYAH_START
-The last of it is musk. So for this let the competitors compete. (Q83:26)
-\AYAH_END
-```
-
-The content for the Arabic part of the *āyah* can be retrieved from `utils/quran/quran-ayah-getter.ipynb`.
-It's a Jupyter notebook and has methods to extract content from the Quran data CSV file `hafsData_v18.csv`.
-
-## Helpers for *Ḥadīth* reference
-
-A *ḥadīth* reference consists of two parts: (1) Arabic text and (2) its translation.
-The former is followed immediately by the latter.
-This is demonstrated in the following snippet:
-
-```
-\HADITH_AR_START
-إنما الأعمال بالنيات.
-\HADITH_AR_END
-
-\HADITH_START
-“Deeds are by intention.”
-\HADITH_END
-```
-
-## Helpers for paragraph and character styles
-
-For [small caps], use `\SC{term}`.
-Internally, this expands to `[term]{.smallcaps}`.
-
-## Helpers for Generation Date in YAML
-
-You can use `\NOW` for the date.
-The format is specified in the `makefile`.
-It uses GPP to inject the date created from the shell where the `\NOW` command exists.
-
-I've also vibe coded the `inject-date.lua` but I have not tested it.
-Eventually I want to reduce the amount of dependencies for the project to make it more portable.
+Arabic content uses the fonts from the King Fahd Glorious Qurʾān Printing Complex (KFGQPC), so Arabic line height stays consistent. Other fonts work too if the line height can be kept, e.g. in InDesign. That is harder, if not impossible, in EPUB. See `utils/quran/SOURCE.md` for where the data and fonts come from; their redistribution terms are unconfirmed.
 
 ## References
 
-It uses Pandoc's citation processor.
-The citation style is [Chicago fullnote (shortitle subsequent)];
-It is preferred over styles which used “Ibid.” for subsequent mentions because it is inconvenient for digital formats such as EPUB3.
-It also allows adding other content to the footnote along with the reference.
+Citations use Pandoc's citation processor with the [Chicago fullnote (short title subsequent)] style. It is preferred over "Ibid."-style citations because "Ibid." is awkward in digital formats such as EPUB3. It also lets you add other content to a footnote alongside the reference.
 
-This should only be used if the book is to be re-edited, otherwise, reference
-content should just be copied as is.
+Use citations only if the book is being re-edited. Otherwise, copy reference content as it is.
 
-## Misc. info
+## Moving an older book over
 
-If frontmatter content ends with its author's information, such as name, date of
-writing, and place of writing, these are to be surrounded by the custom style
-tags:
+Books written with the old GPP macros (`\hon{\PBUH}{\BODY}`, `\AYAH_AR_START`, `\trans{…}{…}`) can be converted in one step:
 
 ```
-::: {custom-style="left-ragged"}
-Content Line 1  
-Content Line 2  
-Content Line 3  
-...
-:::
+pandoc lua utils/lua/convert-gpp.lua
 ```
 
-...where each line with the exception of the last line is followed by a double space.
+It rewrites `content/` in place, finds each ayah's reference from its Arabic text where the `(Q…)` is missing, and lists anything it couldn't convert. Review the diff before committing. Any old syntax left over makes the build fail and name the replacement.
 
-Even if the content block aligned, it is to be aligned left. This is because if
-the content is exported for EPUBs, right-alignment might be overridden by user
-preference.
+## For developers
 
-## Starting checklist
-
-1. Clone the repo.
-
-2. Type in book details in `./metadata.yaml`
-
-3. Start creating Markdown files in `content/frontmatter` and `content/mainmatter`.
-   a.  For files in `frontmatter`, consider using using the `unnumbered` attribute for headers so that they are not numbered; usually, numbering starts with the first chapter. E.g. `# Heading Title {.unnumbered}`
-
-   b.  Most books can be split easily into chapters. For those that cannot,
-   arbitrary division into separate Markdown files is recommended if the book is long.
-
-4. To generate a draft, type `make` followed by the required format: `make EPUB` or `make DOCX`.
-
-## Cons
-
-For other than syntax errors, macro expansion from [GPP] usually, if not always, fails silently.
-
-[Pandoc]: https://pandoc.org/
-[GPP]: https://files.nothingisreal.com/software/gpp/gpp.html
-[Chicago fullnote (shortitle subsequent)]: https://www.zotero.org/styles/chicago-fullnote-bibliography-short-title-subsequent
-[small caps]: https://en.wikipedia.org/wiki/Small_caps
+- `build.lua` is the build. The construct filter and its helpers are in `utils/lua/`. `utils/lua/constructs.lua` also works as a plain filter: `pandoc file.md --lua-filter utils/lua/constructs.lua -o out.docx`.
+- `pandoc lua tests/run.lua` runs the self-test: ayah grammar, options, every error case in `tests/errors/`, and a full build of `tests/sample/`.
+- Design decisions and their reasons are in `docs/` (`docs/adr/` and `docs/wayfinder/`).
 
 ## Guidelines
 
-1. Ensure one-line space between headers and the first paragraphs.
+1. Leave one blank line between a heading and its first paragraph.
+2. Put footnote content right after the paragraph that holds its marker.
+3. Hadith references need to be typed at the end of their translations. Ayah references are added automatically.
+4. The conventional order of English book front matter is:
+   1. Dedication
+   2. Foreword
+   3. Preface
+   4. Acknowledgements
+   5. Contents
+5. If front-matter content ends with its author's details (name, date and place of writing), wrap them in a signature block, ending each line except the last with two spaces:
 
-2. Footnote content is best placed right after the paragraph in which its marker is placed.
+   ```
+   ::: signature
+   Content Line 1  
+   Content Line 2  
+   Content Line 3
+   :::
+   ```
 
-3. Quran and Ḥadīth references need to be manually typed at the end of their translations.
+   It is aligned left even when the content is right-aligned, because EPUB readers may override right alignment.
 
-4. The conventional order of English book frontmatter is:
+## TODO
 
-      i. Dedication
+1. Check the design font in the Word template.
+1. Fix the English Target / Arabic Source alignment in the Word template.
+1. Add the styles the build emits that `utils/templates/template.docx` does not define yet: `Char Header/Body/Footer Honorifics` (the template has `honorifics_body`), `arabic-text`, `arabic-text-trans`, `Arabic Source`, `English Target`, `Highlight C1`–`C4`, `Highlight Warn`, and the `list-quran-*` / `list-hadith-*` styles. Until then Word creates them unstyled. `template.odt` defines almost none of them.
 
-     ii. Foreword
+## Roadmap
 
-    iii. Preface
-
-     iv. acknowledgements
-
-      v. Contents
-
-# Roadmap
-
-The following are some things that I want to tackle eventually:
-
-1. Reduce the number of dependencies so as to make the template more portable,
-   requiring lesser work from the user.
 1. Add Typst as an export option with decent A4 and A5 templates.
-1. 
 
-## Typst Template
+### Typst template
 
-The Typst template should do the following:
+The Typst template should:
 
 1. Allow user-defined fonts.
 1. Allow user-defined page sizes and margin sizes.
-1. Predefined fonts for English and Arabic with overrides possible by the user.
-1. Predefined functions for Quran text, Ḥadīth text, and Translation blocks.
-1. Custom bibliography style for common Ḥadīth books, e.g. _Ṣaḥīḥ al-Bukhārī_,
-   vol. 2, p. 100, #500 (instead of) _Ṣaḥīḥ al-Bukhārī_, Muḥammad ibn Ismāʿīl
-   al-Bukhārī (Dār al-Taʾṣīl, Cairo: 2000) vol. 2, p. 100, #500.
+1. Predefine fonts for English and Arabic, which the user can override.
+1. Predefine functions for Qurʾān text, ḥadīth text, and translation blocks.
+1. Use a custom bibliography style for common ḥadīth books, e.g. _Ṣaḥīḥ al-Bukhārī_, vol. 2, p. 100, #500, instead of _Ṣaḥīḥ al-Bukhārī_, Muḥammad ibn Ismāʿīl al-Bukhārī (Dār al-Taʾṣīl, Cairo: 2000) vol. 2, p. 100, #500.
+
+[Pandoc]: https://pandoc.org/
+[Chicago fullnote (short title subsequent)]: https://www.zotero.org/styles/chicago-fullnote-bibliography-short-title-subsequent
