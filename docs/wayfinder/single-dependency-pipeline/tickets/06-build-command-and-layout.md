@@ -57,3 +57,5 @@ Input from [Edition options model](04-edition-options-model.md): the command acc
 7. **ODT reference doc:** `template.odt` is turned back on. If it turns out to be broken, record that in [Bugs to fix when porting](09-bugs-to-fix-when-porting.md).
 
 The build script must also reproduce what the Pandoc CLI did for us: default templates for epub/chunkedhtml/html5, CSS/bibliography/CSL wiring, EPUB font embedding, CRLF output on Windows, and unzipping chunkedhtml. It must also avoid every old-makefile bug listed above: unchecked paths, concurrency races, platform binaries, hardcoded names, and setup that can't be re-run.
+
+Superseded in part by [PR review: ICML, timestamps, raw custom styles](16-pr-review-icml-timestamps-custom-styles.md): `icml` added; output names have no timestamp by default (`timestamp: true` restores it) and each build overwrites.

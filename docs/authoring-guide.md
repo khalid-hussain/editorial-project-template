@@ -133,6 +133,20 @@ These are for drafts. **A final edition stops on any mark that's left.**
 | `[@saadi02, 12]` | a footnote citation from `utils/master.bib` (a missing key stops the build) |
 | `::: signature` … `:::` | a left-aligned author signature at the end of front matter |
 
+### Your own styles
+
+Any Pandoc Markdown works, including your own Word/ODT/ICML styles:
+
+```markdown
+::: {custom-style="Basmalah"}
+بسم الله الرحمن الرحيم
+:::
+```
+
+You're responsible for adding the style to `utils/templates/template.docx` (and `.odt`). If the template doesn't define it, the build warns once, because it would come out unstyled. A near-miss of one of the template's own style names (`quran-arabc`) is treated as a typo and stops the build.
+
+### Your own classes
+
 You can use your own classes, like `::: poem`. The build passes them through unchanged and mentions each one once as a warning, so a final edition will ask about them. If a class is one or two letters away from a construct name (`hadeeth`, `ayat`), the build treats it as a typo and stops.
 
 ## Options and editions
@@ -146,6 +160,7 @@ You can use your own classes, like `::: poem`. The build passes them through unc
 | `quran-citation` | `short` (Q21:107), `long` (al-Anbiyāʾ, Q21:107) | `short` |
 | `ayah-numbers` | `always`, `ended` (only where an ayah ends), `never` | `always` |
 | `translation-lang` | a language code such as `en`, `fr` or `ur` | the book's `lang` |
+| `timestamp` | `false` (each build overwrites the last), `true` (date and time in file names) | `false` |
 
 A **format section** changes options for one format only:
 

@@ -37,6 +37,7 @@ The template builds every current output format (DOCX, ODT, EPUB, chunked HTML, 
 - [Bugs to fix when porting](tickets/09-bugs-to-fix-when-porting.md): honorific table fixed, content fixed or flagged; `template.docx` style gaps listed in the README TODO.
 - [Retire the old pipeline](tickets/12-retire-the-old-pipeline.md): GPP, makefile, Python and notebooks deleted.
 - [Rewrite README and authoring guide](tickets/14-rewrite-readme-and-authoring-guide.md): new README and `docs/authoring-guide.md`.
+- [PR review: ICML, timestamps, raw custom styles](tickets/16-pr-review-icml-timestamps-custom-styles.md): `icml` format; no timestamp by default (`timestamp: true`); raw `custom-style` allowed, with typo and missing-from-template checks.
 
 ## Not yet specified
 
@@ -48,5 +49,8 @@ _Nothing left: every remaining step is a ticket. See the [implementation plan](i
 - **KFGQPC data/font licence confirmation**: a legal question for the project owner, not a pipeline decision; recorded as unconfirmed in `utils/quran/SOURCE.md` ([Qur'an data source](tickets/08-quran-data-source.md)).
 - **Data-backed hadith lookup**: hadith stays typed-in text; a lookup like ayat is a new feature, not part of the migration.
 - **CI**: no automated build on push for now; the sample content and test runner are run by hand.
+- **Citation locator checks** (owner, PR #1): warn on a volume beyond `volumes`, backwards page ranges, `p.`/`pp.` and en dashes. Follow-up PR.
+- **Heading capitalisation (CMOS/APA/MLA)** (owner, PR #1): needs rules for transliterated particles (al-, ibn, wa-) and a choice between rewriting the source and changing headings only in the output. Follow-up map.
+- **Buckwalter transliteration to Arabic, LoC, IJMES, DIN** (owner, PR #1): proposed as code spans (``` ``AlHamdu lil~ahi``{.loc} ```); needs fully vowelled input, reference examples for each scheme, and Safe Buckwalter in the bibliography. Follow-up map.
 - **Typst / PDF output**: deferred to a later effort; only constraint here is not blocking it.
 - **README TODOs on Word template design** (fonts, Arabic/English alignment): template styling, not pipeline.

@@ -1,6 +1,6 @@
 # Editorial Project Template
 
-A template for editing and translating Islamic books. You write in Markdown and get DOCX, ODT, EPUB and HTML out of it. Qurʾān quotations are filled in from the bundled Ḥafṣ text, so they are never copied by hand.
+A template for editing and translating Islamic books. You write in Markdown and get DOCX, ODT, ICML (InDesign), EPUB and HTML out of it. Qurʾān quotations are filled in from the bundled Ḥafṣ text, so they are never copied by hand.
 
 ## Setup
 
@@ -21,13 +21,13 @@ Run every command from this folder:
 ```
 pandoc lua build.lua                        a DOCX draft
 pandoc lua build.lua docx epub              several formats
-pandoc lua build.lua all                    docx, odt, epub, chunkedhtml and html5
+pandoc lua build.lua all                    docx, odt, icml, epub, chunkedhtml and html5
 pandoc lua build.lua epub edition=final     change an option for one build
 pandoc lua build.lua help                   formats, options and their current values
 pandoc lua build.lua clean                  delete dist/
 ```
 
-Output goes to `dist/`, named after the date and the book title, for example `dist/20261110-1432-concise-biography-of-the-prophet.docx`.
+Output goes to `dist/`, named after the book title, for example `dist/concise-biography-of-the-prophet.docx`. Each build overwrites the last. Set `timestamp: true` to keep each build: `dist/20261110-1432-concise-biography-of-the-prophet.docx`.
 
 **If something is wrong, nothing is written.** The build lists every problem with its file and line, then stops:
 
@@ -61,6 +61,7 @@ The **[authoring guide](docs/authoring-guide.md)** covers everything with exampl
 | `[21:107]{.q}` | the citation `(Q21:107)` |
 | `[text]{.note}`, `.c1`–`.c4`, `.warn` | editorial highlights (drafts only) |
 | `[@saadi02, 12]` | a Chicago full-note citation from `utils/master.bib` |
+| `::: {custom-style="Basmalah"}` | any Word/ODT/ICML style of your own; add it to the template so it isn't unstyled |
 
 To see the ayah Arabic in your source files while reviewing, run `pandoc lua build.lua resolve`. `unresolve` takes it out again.
 
@@ -74,6 +75,7 @@ template:
   honorifics: arabic      # arabic | english
   quran-citation: short   # short (Q21:107) | long (al-Anbiyāʾ, Q21:107)
   ayah-numbers: always    # always | ended | never
+  timestamp: false        # true puts the build date and time in file names
   epub:                   # any format can override any option
     honorifics: english
 ```

@@ -46,3 +46,5 @@ Input from [Pandoc capability baseline](01-pandoc-capability-baseline.md): choos
 - Pandoc built-ins like `smallcaps`, `unnumbered` and `underline` are allowed silently.
 
 **Style names** stay exactly as they are in `template.docx`.
+
+Superseded in part by [PR review: ICML, timestamps, raw custom styles](16-pr-review-icml-timestamps-custom-styles.md): raw `custom-style` is now allowed (typos of template styles error; styles missing from the reference doc warn).
