@@ -7,15 +7,16 @@ local suggest = require("suggest")
 
 local options = {}
 
-options.FORMATS = { "docx", "odt", "epub", "chunkedhtml", "html5" }
+options.FORMATS = { "docx", "odt", "icml", "epub", "chunkedhtml", "html5" }
 
-options.ORDER = { "edition", "honorifics", "quran-citation", "ayah-numbers", "translation-lang" }
+options.ORDER = { "edition", "honorifics", "quran-citation", "ayah-numbers", "translation-lang", "timestamp" }
 
 options.CHOICES = {
   edition = { "draft", "final" },
   honorifics = { "arabic", "english" },
   ["quran-citation"] = { "short", "long" },
   ["ayah-numbers"] = { "always", "ended", "never" },
+  timestamp = { "false", "true" },
 }
 
 options.DEFAULTS = {
@@ -23,6 +24,7 @@ options.DEFAULTS = {
   honorifics = "arabic",
   ["quran-citation"] = "short",
   ["ayah-numbers"] = "always",
+  timestamp = "false",
 }
 
 local DESCRIPTIONS = {
@@ -31,6 +33,7 @@ local DESCRIPTIONS = {
   ["quran-citation"] = "short (Q21:107) or long (al-Anbiyāʾ, Q21:107)",
   ["ayah-numbers"] = "after every quoted ayah, only where an ayah ends, or never",
   ["translation-lang"] = "language of translation blocks; defaults to the book's lang",
+  timestamp = "put the build date and time in output file names (otherwise each build overwrites the last)",
 }
 options.DESCRIPTIONS = DESCRIPTIONS
 
@@ -66,7 +69,7 @@ end
 
 --- "word" for formats styled through custom-style, "html" otherwise.
 function options.family(format)
-  if format == "docx" or format == "odt" then return "word" end
+  if format == "docx" or format == "odt" or format == "icml" then return "word" end
   return "html"
 end
 

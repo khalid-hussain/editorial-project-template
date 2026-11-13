@@ -17,6 +17,7 @@ local quran = require("quran")
 local options = require("options")
 local construct_filter = require("construct_filter")
 local Problems = require("problems")
+local reference_styles = require("reference_styles")
 
 local data_directory = pandoc.path.join({ root, "utils", "quran" })
 local failures = 0
@@ -96,6 +97,8 @@ check(resolved.honorifics == "english" and resolved.edition == "final" and resol
 -- 3. Error cases
 ---------------------------------------------------------------------------
 
+local docx_styles = reference_styles.load(pandoc.path.join({ root, "utils", "templates", "template.docx" }))
+check(docx_styles and docx_styles["quran-arabic"], "template.docx styles can be read")
 local errors_directory = pandoc.path.join({ root, "tests", "errors" })
 local error_files = pandoc.system.list_directory(errors_directory)
 table.sort(error_files)
@@ -110,6 +113,7 @@ for _, name in ipairs(error_files) do
     construct_filter.apply(doc, {
       file = relative_path, source = source, format = "docx", options = option_values,
       data_directory = data_directory, problems = problems,
+      reference_styles = docx_styles, reference_name = "template.docx",
     })
 
     local expectations = {}
@@ -154,7 +158,10 @@ if io.open(build_script, "rb") then
     check(ok, "sample book builds in every format" .. (ok and "" or (": " .. tostring(output))))
     if ok then
       local produced = pandoc.system.list_directory(directory)
-      check(#produced == 5, "sample book produced 5 outputs, got " .. #produced)
+      check(#produced == #options.FORMATS, ("sample book produced %d outputs, got %d"):format(#options.FORMATS, #produced))
+      for _, name in ipairs(produced) do
+        check(not name:match("^%d%d%d%d%d%d%d%d%-"), "no timestamp in output names by default: " .. name)
+      end
     end
   end)
 end

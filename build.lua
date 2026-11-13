@@ -28,6 +28,7 @@ local Problems = require("problems")
 local grammar = require("ayah_grammar")
 local quran = require("quran")
 local resolve = require("resolve")
+local reference_styles = require("reference_styles")
 local suggest = require("suggest")
 
 ---------------------------------------------------------------------------
@@ -63,7 +64,7 @@ local PATHS = {
 
 local CONTENT_SECTIONS = { "frontmatter", "mainmatter", "backmatter" }
 local COMMANDS = { "build", "clean", "help", "resolve", "unresolve" }
-local FORMAT_EXTENSIONS = { docx = "docx", odt = "odt", epub = "epub" }
+local FORMAT_EXTENSIONS = { docx = "docx", odt = "odt", icml = "icml", epub = "epub" }
 local DATE_FORMAT = "%a %d %b %Y %I:%M%p"
 
 ---------------------------------------------------------------------------
@@ -309,9 +310,23 @@ local function read_sources(book)
   return sources
 end
 
+local REFERENCE_DOCS = { docx = "docx_template", odt = "odt_template" }
+local reference_style_cache = {}
+
+--- Style names defined in the format's reference doc, or nil if it has none.
+local function styles_for(format)
+  local path_key = REFERENCE_DOCS[format]
+  if not path_key then return nil end
+  if reference_style_cache[format] == nil then
+    reference_style_cache[format] = reference_styles.load(PATHS[path_key]) or false
+  end
+  return reference_style_cache[format] or nil, pandoc.path.filename(PATHS[path_key])
+end
+
 --- Read and filter every source for one format. Returns a list of documents.
 local function filtered_documents(sources, format, option_values, problems)
   local documents = {}
+  local style_names, reference_name = styles_for(format)
   for _, source in ipairs(sources) do
     local logs, doc = pandoc.log.silence(function()
       return pandoc.read({ { source.relative, source.text } }, "markdown")
@@ -323,6 +338,7 @@ local function filtered_documents(sources, format, option_values, problems)
     doc = construct_filter.apply(doc, {
       file = source.relative, source = source.text, format = format, options = option_values,
       data_directory = PATHS.quran_data, problems = problems,
+      reference_styles = style_names, reference_name = reference_name,
     })
     documents[#documents + 1] = doc
   end
@@ -385,7 +401,8 @@ end
 local function render_format(book, sources, format, option_values, problems, stamp, date_text, dist_directory)
   local documents = filtered_documents(sources, format, option_values, problems)
   deduplicate_identifiers(documents)
-  local base_name = stamp .. "-" .. slugify(book.title) .. (option_values.edition == "final" and "-final" or "")
+  local base_name = (option_values.timestamp == "true" and (stamp .. "-") or "")
+    .. slugify(book.title) .. (option_values.edition == "final" and "-final" or "")
   local meta = book_meta(book, date_text)
 
   if format == "html5" then
@@ -418,6 +435,8 @@ local function render_format(book, sources, format, option_values, problems, sta
     writer_name, writer_options = "docx", { reference_doc = PATHS.docx_template, number_sections = true }
   elseif format == "odt" then
     writer_name, writer_options = "odt", { reference_doc = PATHS.odt_template, number_sections = true }
+  elseif format == "icml" then
+    writer_name, writer_options = "icml", { template = default_template("icml") }
   elseif format == "epub" then
     writer_name, writer_options = "epub3", {
       template = default_template("epub3"),

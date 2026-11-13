@@ -9,6 +9,7 @@ template:
   honorifics: arabic      # arabic | english
   quran-citation: short   # short | long
   ayah-numbers: always    # always | ended | never
+  timestamp: false        # true puts the build date and time in file names
   epub:
     honorifics: english   # Arabic honorifics currently disturb EPUB line spacing
 ---

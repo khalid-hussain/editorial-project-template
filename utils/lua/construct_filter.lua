@@ -130,6 +130,18 @@ local DIV_CONSTRUCTS = { ayah = true, hadith = true, ["arabic-quote"] = true, tr
 local SPAN_CONSTRUCTS = { hon = true, q = true, note = true, c1 = true, c2 = true, c3 = true, c4 = true, warn = true }
 local BUILTIN_CLASSES = { smallcaps = true, underline = true, mark = true, unnumbered = true, unlisted = true }
 
+-- Every style name the filter itself emits, for catching typos in raw
+-- custom-style attributes.
+local KNOWN_STYLE_NAMES = { SIGNATURE_STYLE }
+for _, style in pairs(HONORIFIC_STYLES) do KNOWN_STYLE_NAMES[#KNOWN_STYLE_NAMES + 1] = style end
+for _, style in pairs(HIGHLIGHT_STYLES) do KNOWN_STYLE_NAMES[#KNOWN_STYLE_NAMES + 1] = style end
+for _, spec in pairs(BLOCK_CONSTRUCTS) do
+  for _, field in ipairs({ "arabic_style", "translation_style", "list_arabic_style", "list_translation_style" }) do
+    if spec[field] then KNOWN_STYLE_NAMES[#KNOWN_STYLE_NAMES + 1] = spec[field] end
+  end
+end
+table.sort(KNOWN_STYLE_NAMES)
+
 local KNOWN_CLASS_NAMES = {}
 for name in pairs(DIV_CONSTRUCTS) do KNOWN_CLASS_NAMES[#KNOWN_CLASS_NAMES + 1] = name end
 for name in pairs(SPAN_CONSTRUCTS) do KNOWN_CLASS_NAMES[#KNOWN_CLASS_NAMES + 1] = name end
@@ -224,12 +236,14 @@ end
 ---   options,               -- resolved option values (options.resolve)
 ---   data_directory,        -- utils/quran
 ---   problems,              -- a Problems collector
+---   reference_styles,      -- optional set of style names in the reference doc
+---   reference_name,        -- e.g. "template.docx", for messages
 --- }
 function construct_filter.apply(doc, context)
   local problems = context.problems or Problems.new()
   local locator = Problems.locator(context.file, context.source)
   local option_values = context.options
-  local family = (context.format == "docx" or context.format == "odt") and "word" or "html"
+  local family = (context.format == "docx" or context.format == "odt" or context.format == "icml") and "word" or "html"
   local is_final = option_values.edition == "final"
   local honorific_language = option_values.honorifics == "english" and "english" or "arabic"
   local translation_language = option_values["translation-lang"] or "en"
@@ -261,11 +275,26 @@ function construct_filter.apply(doc, context)
 
   -- 2. Validate classes and attributes on every Div, Span and Header.
   local function check_element(element, kind)
-    if element.attributes["custom-style"] then
-      local style = element.attributes["custom-style"]
-      problems:error(locator:find({ 'custom-style="' .. style .. '"', "custom-style=" .. style, "custom-style" }),
-        ('raw custom-style "%s" in content'):format(style),
-        style == SIGNATURE_STYLE and "use ::: signature" or "content names what something is; only the filter knows Word style names")
+    local style = element.attributes["custom-style"]
+    if style then
+      -- Raw custom styles are allowed: some books need elements the
+      -- constructs don't cover. Catch typos of the template's own style
+      -- names, and styles the reference doc doesn't define.
+      local needles = { 'custom-style="' .. style .. '"', "custom-style=" .. style, "custom-style" }
+      local near = suggest.near_miss(style, KNOWN_STYLE_NAMES)
+      if near then
+        problems:error(locator:find(needles), ('unknown custom style "%s"'):format(style), ('did you mean "%s"?'):format(near))
+      elseif context.reference_styles and not context.reference_styles[style] then
+        local is_known = false
+        for _, known in ipairs(KNOWN_STYLE_NAMES) do
+          if known == style then is_known = true break end
+        end
+        if not is_known then
+          problems:warning_once("style:" .. style, locator:find(needles),
+            ('custom style "%s" is not defined in %s'):format(style, context.reference_name or "the reference doc"),
+            "it will come out unstyled; add the style to the template")
+        end
+      end
     end
 
     local constructs_here = {}
