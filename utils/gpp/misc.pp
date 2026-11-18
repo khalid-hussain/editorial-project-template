@@ -1,13 +1,22 @@
 
 #mode standard tex
 
-\ifdef{IBN}
-\define{BIN}{ibn}
-\define{BINT}{bint}
-\else
-\define{BIN}{b.}
-\define{BINT}{bt.}
-\endif
+
+\define{\QUESTION{no}{no_in_part}{part}{text}}{
+::: {custom-style="QUESTION"}
+Question No. \no (\no_in_part/\part)
+:::
+
+::: {custom-style="QUESTION-DETAIL"}
+\text
+:::
+}
+
+\define{\ANSWER}{
+::: {custom-style="ANSWER"}
+Answer
+:::
+}
 
 \define{\SC{term}}{[\term]{.smallcaps}}
 

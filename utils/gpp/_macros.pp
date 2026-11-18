@@ -57,7 +57,7 @@
 #define S_HIM (Peace be on him)
 #define S_HER (Peace be on her)
 #define S_TWO (Peace be on them both)
-#define S_TWO (Peace be on them)
+#define S_THM (Peace be on them)
 
 #define SS_HIM عليه الصلاة والسلام
 #define SS_HER عليه الصلاة والسلام
@@ -121,9 +121,9 @@
 \define{LIST_HADITH_START}{::: {custom-style="list-hadith-trans"}}
 \define{LIST_HADITH_END}{:::}
 
-\define{AR_START}{::: {custom-style="hadith-arabic" lang="ar" dir="rtl"}}
+\define{AR_START}{::: {custom-style="arabic-text" lang="ar" dir="rtl"}}
 \define{AR_END}{:::}
-\define{EN_START}{::: {custom-style="hadith-trans"}}
+\define{EN_START}{::: {custom-style="arabic-text-trans"}}
 \define{EN_END}{:::}
 \endif
 
@@ -158,13 +158,22 @@
 
 #mode standard tex
 
-\ifdef{IBN}
-\define{BIN}{ibn}
-\define{BINT}{bint}
-\else
-\define{BIN}{b.}
-\define{BINT}{bt.}
-\endif
+
+\define{\QUESTION{no}{no_in_part}{part}{text}}{
+::: {custom-style="QUESTION"}
+Question No. \no (\no_in_part/\part)
+:::
+
+::: {custom-style="QUESTION-DETAIL"}
+\text
+:::
+}
+
+\define{\ANSWER}{
+::: {custom-style="ANSWER"}
+Answer
+:::
+}
 
 \define{\SC{term}}{[\term]{.smallcaps}}
 

@@ -1,3 +1,0 @@
-
-# Translator's Introduction {.unnumbered}
-
