@@ -5,7 +5,74 @@ Economic Affairs
 
 # Economic Affairs
 
-## Can Muslims work in finance institutions?
+## Employment and Professions
+
+### Muslims working for non-Muslims
+
+\QUESTION{119}{7}{4}{Submitted by Abdur Raheem on Feb 25, 2003}
+
+_As-Salāmu ʿalaykum_, Can a Muslim work for a non-Muslim police force?
+
+\ANSWER
+
+_Waʿalaykum as-Salām wa raḥmatullāhi wa barakātuh_.
+
+In the Name of Allah, Most Gracious, Most Merciful.
+All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
+
+There is no harm if a Muslim works for a non-Muslim police force for the sake of
+protecting the country and the nation. He should try his best to promote Islam
+among non-Muslim police officers as much as he can. Furthermore, he will have to
+do his best to uphold justice, security and peace, and to display a true image
+of Islam all the time.
+
+Taking into account the current status of Muslims in many non-Muslim countries,
+Muslims are strongly recommended to join the police and military forces in their
+respective countries in order to defend their fellow Muslims in the future and
+to assist other Muslims in the world when they will take leading roles in the
+future.
+
+Allah Almighty knows best.
+
+
+
+\QUESTION{120}{8}{4}{Submitted by Ali from New Zealand (Aotearoa) on Apr 29, 2003}
+
+_As-Salāmu ʿalaykum_, I have a question regarding something that happened to me
+today. Some Christian friends approached me to translate some materials for them
+from English into Arabic, and they said that this job would pay a lot of money.
+But then I found out that the job involves translating materials for Christian
+religious purposes such as inviting people to Christianity, so I decided not to
+carry out the task. I’d like to ask whether or not breaking my word with those
+guys is _haram_. Also, I’d like to know the responsibility of the translators who
+are supposed to translate any materials submitted to them; otherwise, they may
+lose their jobs. _Jazākum Allah khayran_.
+
+\ANSWER
+
+_Wa ʿalaykum as-Salām wa raḥmatullāhi wa barakātuh_.
+
+In the Name of Allah, Most Gracious, Most Merciful.
+All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
+
+May Allah bless you and grant you better chances and opportunities! I do
+congratulate you for turning down that offer after realising its consequences.
+Muslims are not allowed to take part in such activities that are promoting other
+religions than Islam. You aren’t sinful at all for not helping them in the
+translations of those materials. What you did is correct, and you will be
+rewarded for it on the Day of Judgment. As for those who are contributing to the
+promotion of religions other than Islam by translating materials or providing
+means, they are all considered sinful. Therefore, I appeal to them to look for
+other jobs that do not require doing things against our belief and religion. May
+Allah guide all of us!
+
+Allah Almighty knows best.
+
+
+
+
+
+### Can Muslims work in finance institutions?
 
 \QUESTION{113}{1}{4}{Submitted by Omar on Feb 25, 2003}
 
@@ -49,7 +116,44 @@ Allah Almighty knows best.
 
 
 
-## Can Muslims have a business that sells wine?
+
+
+### Working in a medical profession that requires seeing the _ʿawrah_ of a person
+
+\QUESTION{121}{9}{4}{Submitted by Karima from Sweden on Mar 31, 2003}
+
+My job is giving medical help to men and women in the hospital or in their
+houses. Sometimes they are without clothes. It’s the only job that I can have,
+and I need to work. Is this job _halal_ or _haram_? Please I need the answer!
+
+\ANSWER
+
+In the Name of Allah, Most Gracious, Most Merciful.
+All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
+
+For the sake of offering medical or health treatment to those people who are in
+need of that, it is _halal_ in Islam to see them without clothes if taking off
+their clothes is necessary for treatment.
+
+This is based on the legal maxim that says: “Necessities render the prohibited
+permissible”. May Allah help you and give you a long life and good health. I
+wish you all the best in your job.
+
+Having stated the above, I should add that it would be better to avoid seclusion
+(_khalwah_) as much as you can. I mean that you should do your treatment in the
+presence of the wife if the patient is a man. I do believe that being a lady you
+need to take this part into consideration when you treat a man. May Allah
+protect you.
+
+Allah Almighty knows best.
+
+
+
+
+
+## Trade and Commercial Transactions
+
+### Can Muslims have a business that sells wine?
 
 \QUESTION{115}{3}{4}{Submitted by Nazier from South Africa on Aug 25, 2003}
 
@@ -122,41 +226,8 @@ Allah Almighty knows best.
 
 
 
-## Accepting business invitations where alcohol is served
 
-\QUESTION{117}{5}{4}{Submitted by Farhat on Sep 14, 2004}
-
-My in-laws are very religious. They have lots of agencies for airlines. They
-also have lots of other businesses, like Islamic banking, etc. Recently they
-were awarded by Virgin Atlantic Airline for being agents. The Virgin Atlantic
-had a very big cocktail party and lots of people were invited, so our group also
-had invited their customers. They did not spend any money towards the party, but
-is it correct for them to be involved where alcohol was served and women were
-massaging guests to promote their flight services. Can you please advise?
-
-\ANSWER
-
-In the Name of Allah, Most Gracious, Most Merciful.
-All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
-
-Thank you for your question. Islam stands for cooperation and communication with
-others. It also calls upon all Muslims to mix with others in order to introduce
-Islam to their partners. In this regard, there is no harm for you in attending a
-party organised by Virgin Atlantic Airline. Having said that, you should not
-take part in any prohibited activities such as drinking or serving alcohol to
-those who want to drink it.
-
-Furthermore, you should observe the teachings of Islam in terms of your
-relations with women who are not close relatives. Islam prohibits any illegal
-physical contact with a woman who is not a close relative. Try to do your best
-for Islam while interacting or attending such occasions. May Allah give you
-strength and protection always.
-
-Allah Almighty knows best.
-
-
-
-## Are there any circumstances where _ribā_ is permissible?
+### Are there any circumstances where _ribā_ is permissible?
 
 \QUESTION{118}{6}{4}{Submitted by Frank from the United States on Apr 29, 2003}
 
@@ -188,94 +259,38 @@ Allah Almighty knows best.
 
 
 
-## Muslims working for non-Muslims
-
-\QUESTION{119}{7}{4}{Submitted by Abdur Raheem on Feb 25, 2003}
-
-_As-Salāmu ʿalaykum_, Can a Muslim work for a non-Muslim police force?
-
-\ANSWER
-
-_Waʿalaykum as-Salām wa raḥmatullāhi wa barakātuh_.
-
-In the Name of Allah, Most Gracious, Most Merciful.
-All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
-
-There is no harm if a Muslim works for a non-Muslim police force for the sake of
-protecting the country and the nation. He should try his best to promote Islam
-among non-Muslim police officers as much as he can. Furthermore, he will have to
-do his best to uphold justice, security and peace, and to display a true image
-of Islam all the time.
-
-Taking into account the current status of Muslims in many non-Muslim countries,
-Muslims are strongly recommended to join the police and military forces in their
-respective countries in order to defend their fellow Muslims in the future and
-to assist other Muslims in the world when they will take leading roles in the
-future.
-
-Allah Almighty knows best.
 
 
+## Social and Business Relations
 
-\QUESTION{120}{8}{4}{Submitted by Ali from New Zealand (Aotearoa) on Apr 29, 2003}
+### Accepting business invitations where alcohol is served
 
-_As-Salāmu ʿalaykum_, I have a question regarding something that happened to me
-today. Some Christian friends approached me to translate some materials for them
-from English into Arabic, and they said that this job would pay a lot of money.
-But then I found out that the job involves translating materials for Christian
-religious purposes such as inviting people to Christianity, so I decided not to
-carry out the task. I’d like to ask whether or not breaking my word with those
-guys is _haram_. Also, I’d like to know the responsibility of the translators who
-are supposed to translate any materials submitted to them; otherwise, they may
-lose their jobs. _Jazākum Allah khayran_.
+\QUESTION{117}{5}{4}{Submitted by Farhat on Sep 14, 2004}
 
-\ANSWER
-
-_Wa ʿalaykum as-Salām wa raḥmatullāhi wa barakātuh_.
-
-In the Name of Allah, Most Gracious, Most Merciful.
-All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
-
-May Allah bless you and grant you better chances and opportunities! I do
-congratulate you for turning down that offer after realising its consequences.
-Muslims are not allowed to take part in such activities that are promoting other
-religions than Islam. You aren’t sinful at all for not helping them in the
-translations of those materials. What you did is correct, and you will be
-rewarded for it on the Day of Judgment. As for those who are contributing to the
-promotion of religions other than Islam by translating materials or providing
-means, they are all considered sinful. Therefore, I appeal to them to look for
-other jobs that do not require doing things against our belief and religion. May
-Allah guide all of us!
-
-Allah Almighty knows best.
-
-
-
-## Working in a medical profession that requires seeing the _ʿawrah_ of a person
-
-\QUESTION{121}{9}{4}{Submitted by Karima from Sweden on Mar 31, 2003}
-
-My job is giving medical help to men and women in the hospital or in their
-houses. Sometimes they are without clothes. It’s the only job that I can have,
-and I need to work. Is this job _halal_ or _haram_? Please I need the answer!
+My in-laws are very religious. They have lots of agencies for airlines. They
+also have lots of other businesses, like Islamic banking, etc. Recently they
+were awarded by Virgin Atlantic Airline for being agents. The Virgin Atlantic
+had a very big cocktail party and lots of people were invited, so our group also
+had invited their customers. They did not spend any money towards the party, but
+is it correct for them to be involved where alcohol was served and women were
+massaging guests to promote their flight services. Can you please advise?
 
 \ANSWER
 
 In the Name of Allah, Most Gracious, Most Merciful.
 All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
 
-For the sake of offering medical or health treatment to those people who are in
-need of that, it is _halal_ in Islam to see them without clothes if taking off
-their clothes is necessary for treatment.
+Thank you for your question. Islam stands for cooperation and communication with
+others. It also calls upon all Muslims to mix with others in order to introduce
+Islam to their partners. In this regard, there is no harm for you in attending a
+party organised by Virgin Atlantic Airline. Having said that, you should not
+take part in any prohibited activities such as drinking or serving alcohol to
+those who want to drink it.
 
-This is based on the legal maxim that says: “Necessities render the prohibited
-permissible”. May Allah help you and give you a long life and good health. I
-wish you all the best in your job.
-
-Having stated the above, I should add that it would be better to avoid seclusion
-(_khalwah_) as much as you can. I mean that you should do your treatment in the
-presence of the wife if the patient is a man. I do believe that being a lady you
-need to take this part into consideration when you treat a man. May Allah
-protect you.
+Furthermore, you should observe the teachings of Islam in terms of your
+relations with women who are not close relatives. Islam prohibits any illegal
+physical contact with a woman who is not a close relative. Try to do your best
+for Islam while interacting or attending such occasions. May Allah give you
+strength and protection always.
 
 Allah Almighty knows best.

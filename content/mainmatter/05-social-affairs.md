@@ -5,32 +5,6 @@ Social Affairs
 
 # Social Affairs
 
-## Etiquette of greeting
-
-\QUESTION{122}{1}{5}{Submitted by Ali from the United States on Jul 1, 2003}
-
-Respected Sheikh, I would like to know if it is permissible to give the
-greetings in the bathroom (saying: _As-Salāmu ʿalaykum_) and is it also
-permissible to remember Allah inside yourself. May Allah reward you!
-
-\ANSWER
-
-In the Name of Allah, Most Gracious, Most Merciful.
-All praise and thanks are due to Allah, and peace and blessings be upon His
-Messenger.
-
-There is no harm in someone outside the bathroom greeting someone inside the
-bathroom by using _salām_. However, if one is given _salām_, then one should
-reply internally and quietly.
-
-As for remembering Allah in this area, there is no harm in doing so but without
-speaking or uttering the words. All in all, one should try their best not to
-spend a long time there.
-
-Allah Almighty knows best.
-
-
-
 ## Etiquette of intermingling between opposite genders
 
 ### Relationship between males and females
@@ -333,7 +307,7 @@ Allah Almighty knows best.
 
 
 
-## Muslim religious groups
+## Religious Groups
 
 Question:	Submitted by M. Abul Hasan from the United Kingdom on Apr 21, 2003
 
@@ -560,7 +534,7 @@ Allah Almighty knows best.
 
 
 
-## Joining inter-religious groups
+### Joining inter-religious groups
 
 \QUESTION{136}{15}{5}{Submitted by Wael from Guyana on Jul 28, 2003}
 
@@ -591,54 +565,12 @@ Allah Almighty knows best.
 
 
 
-## Welfare of disabled in the Muslim community
-
-\QUESTION{137}{16}{5}{Submitted by Rahman on Sep 14, 2004}
-
-What are the rights of the mentally and physically disabled in the Muslim
-community? In other words, what evidence is provided in Islam to show Muslims
-that these people should be accommodated for and not restricted to their homes?
-What should Muslims do for such people (e.g., making mosques accessible, sign
-language _khuṭbahs_, etc.)?
-
-\ANSWER
-
-In the Name of Allah, Most Gracious, Most Merciful.
-All praise and thanks are due to Allah, and peace and blessings be upon His
-Messenger.
-
-Thank you. Let us pray to Allah to grant all of us good health and mental
-stability. Being mentally and physically healthy is one of the great things that
-we should be grateful for. At the same time, sickness, be it mental or physical,
-is a test from Allah to mankind. Therefore, one has to be patient, grateful and
-thankful to Allah for whatever He gives.
-
-As for those people who are disabled in the Muslim community, they deserve full
-attention and all types of assistances and treatment. They shouldn’t be subject
-to any type of humiliation or rejection or discrimination based on their health.
-
-It is an obligation upon the Muslim community to provide them with whatever they
-need and whatever will help them to recover as soon as possible.
-
-As for restricting their movements, this would only be allowed if it is proven
-to be a part of their treatment. Meaning, they should not be isolated for the
-sake of isolation but for the sake of providing them with more treatment and
-medication.
-
-Certainly, the Muslim community has to give a lot of attention to these disabled
-people. It is a consensus among scholars that the whole community will be
-considered sinful if these people are neglected, abandoned or humiliated.
-Therefore, it is a duty of the whole Muslim community, especially the leaders,
-to look for means and ways for treating and attending to the needs of these
-disabled people. May Allah grant every sick Muslim and human being good health
-and longevity.
-
-Allah Almighty knows best.
 
 
 
 
-## Funeral and burials
+
+## Deceased-Related Matters
 
 ### Muslims buried in mass graves along with non-Muslims
 
@@ -667,7 +599,7 @@ Allah Almighty knows best.
 
 
 
-## Respecting the dead in Islam
+### Respecting the dead in Islam
 
 \QUESTION{139}{18}{5}{Submitted by Ahmad from Singapore on Jul 1, 2003}
 
@@ -1139,7 +1071,7 @@ Allah Almighty knows best.
 
 
 
-## Living in a non-Muslim country
+### Living in a non-Muslim country
 
 \QUESTION{153}{32}{5}{Submitted by A from Netherlands on Mar 29, 2004}
 
@@ -1172,7 +1104,7 @@ Allah Almighty knows best.
 
 
 
-## Volunteerism in the community and in non-Muslim organisations
+### Volunteerism in the community and in non-Muslim organisations
 
 \QUESTION{154}{33}{5}{Submitted by Ali from Egypt on Jun 15, 2003}
 
@@ -1438,6 +1370,54 @@ with Muslims as well as with non-Muslims. May Allah bless you!”
 
 ## Miscellaneous Questions
 
+### Welfare of disabled in the Muslim community
+
+\QUESTION{137}{16}{5}{Submitted by Rahman on Sep 14, 2004}
+
+What are the rights of the mentally and physically disabled in the Muslim
+community? In other words, what evidence is provided in Islam to show Muslims
+that these people should be accommodated for and not restricted to their homes?
+What should Muslims do for such people (e.g., making mosques accessible, sign
+language _khuṭbahs_, etc.)?
+
+\ANSWER
+
+In the Name of Allah, Most Gracious, Most Merciful.
+All praise and thanks are due to Allah, and peace and blessings be upon His
+Messenger.
+
+Thank you. Let us pray to Allah to grant all of us good health and mental
+stability. Being mentally and physically healthy is one of the great things that
+we should be grateful for. At the same time, sickness, be it mental or physical,
+is a test from Allah to mankind. Therefore, one has to be patient, grateful and
+thankful to Allah for whatever He gives.
+
+As for those people who are disabled in the Muslim community, they deserve full
+attention and all types of assistances and treatment. They shouldn’t be subject
+to any type of humiliation or rejection or discrimination based on their health.
+
+It is an obligation upon the Muslim community to provide them with whatever they
+need and whatever will help them to recover as soon as possible.
+
+As for restricting their movements, this would only be allowed if it is proven
+to be a part of their treatment. Meaning, they should not be isolated for the
+sake of isolation but for the sake of providing them with more treatment and
+medication.
+
+Certainly, the Muslim community has to give a lot of attention to these disabled
+people. It is a consensus among scholars that the whole community will be
+considered sinful if these people are neglected, abandoned or humiliated.
+Therefore, it is a duty of the whole Muslim community, especially the leaders,
+to look for means and ways for treating and attending to the needs of these
+disabled people. May Allah grant every sick Muslim and human being good health
+and longevity.
+
+Allah Almighty knows best.
+
+
+
+
+
 ### Muslims making fun of Islam and Muslims
 
 \QUESTION{160}{39}{5}{Submitted by Raji from India on Feb 20, 2005}
@@ -1594,3 +1574,27 @@ furniture but to scratch to defend itself.
 Therefore, you should let your cat grow its claws and find other ways of
 protecting your furniture other than hurting or harming innocent and friendly
 animals like cats.
+
+### Etiquette of greeting in the bathroom
+
+\QUESTION{122}{1}{5}{Submitted by Ali from the United States on Jul 1, 2003}
+
+Respected Sheikh, I would like to know if it is permissible to give the
+greetings in the bathroom (saying: _As-Salāmu ʿalaykum_) and is it also
+permissible to remember Allah inside yourself. May Allah reward you!
+
+\ANSWER
+
+In the Name of Allah, Most Gracious, Most Merciful.
+All praise and thanks are due to Allah, and peace and blessings be upon His
+Messenger.
+
+There is no harm in someone outside the bathroom greeting someone inside the
+bathroom by using _salām_. However, if one is given _salām_, then one should
+reply internally and quietly.
+
+As for remembering Allah in this area, there is no harm in doing so but without
+speaking or uttering the words. All in all, one should try their best not to
+spend a long time there.
+
+Allah Almighty knows best.

@@ -5,7 +5,7 @@ Educational Affairs
 
 # Educational Affairs
 
-## The Qurʾān
+## The Qurʾān and Hadith
 
 ### Authenticity of the Qurʾān
 
@@ -181,8 +181,6 @@ with more knowledge and _taqwā_ (piety).
 
 Allah Almighty knows best.
 
-## The Hadith
-
 ### Is there a conflict between some _hadiths_ and science?
 
 \QUESTION{105}{6}{3}{Submitted by S. M from Canada on Mar 25, 2003}
@@ -255,9 +253,141 @@ Prophet \hon{\PBUH}{\BODY}.
 
 
 
+## Learning-Related Matters
+
+### Internet-based learning
+
+\QUESTION{108}{9}{3}{Submitted by Abu Bilal on Feb 23, 2004}
+
+Is there a need for internet-based learning in the near future?
+
+\ANSWER
+
+In the Name of Allah, Most Gracious, Most Merciful.
+All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
+
+Thanks for your question. Indeed, it is an obligation upon Muslims nowadays to
+contribute and develop more internet-based learning for the propagation of the
+true Islam and correction of many wrong images that Islam and Muslims have been
+victims of it.
+
+I call upon all Muslims, both leaders and followers, to do their best to develop
+and equip Muslim countries and communities with skills and deep knowledge of the
+Internet. It is an important and vital tool for better communication with
+nations and civilisations.
+
+All in all, there is a dire need for internet-based learning for all Muslims
+around the globe.
+
+Allah Almighty knows best.
+
+### Etiquette of the Seeker of Knowledge
+
+\QUESTION{109}{10}{3}{Submitted by Sana on Jan 5, 2004}
+
+I want to ask you about the relationship between the student and the teacher
+from an Islamic perspective. I also want to ask you, how shall a student react
+towards his teacher if he is being mistreated?
+
+\ANSWER
+
+In the Name of Allah, Most Gracious, Most Merciful.
+All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
+
+The relationship between teacher and student should be based on mutual love and
+respect. A teacher should treat his students like his own sons, and the student
+should consider his teacher like his own father.
+
+In this regard, they should exchange respect and love within Islamic principles.
+If a teacher has been mistreated, the student should do their best to assist the
+teacher in getting back his right. However, one should make sure that their
+teacher has indeed been mistreated based on evidence and proof, not on passion
+and sympathy. Islam calls upon all Muslims to help their fellow Muslims when an
+injustice is done against one of them. In this regard, students should do their
+best to remove injustice done against their teacher.
+
+Having said this, I can say that if the teacher has mistreated his student, the
+student has the right to complain officially. However, the student should always
+consider the teacher like his or her father. He should not try to put him in
+trouble. He should find ways and means to get his rights without hurting his
+teacher. Mutual understanding and tolerance are highly recommended in this case.
+
+Surely, Islam calls upon teachers to be fair and honest. The teacher has to be a
+model to be followed; he should not do injustice to his students. If he does so,
+he will certainly face dire consequences on the Day of Judgment. Allah Almighty
+knows best.
 
 
-## Responding to inaccurate information published about Islam
+
+
+### Discipline: Hitting and verbally abusing children
+
+\QUESTION{111}{12}{3}{Submitted by Rafiq on Apr 21, 2003}
+
+Can a mosque imam hit a child for whatever reason? Can he hit a child at all? If
+so, what are the limits that a child can be hit, i.e., on the face, on the back,
+or where?
+
+\ANSWER
+
+In the Name of Allah, Most Gracious, Most Merciful.
+All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
+
+Islam does not allow hitting a child or a person on his or her face at all. It
+is prohibited to hit anybody on the face no matter what the crime of the person,
+as the Prophet \hon{\PBUH}{\BODY} prohibited that.
+
+As for hitting a child on the back or somewhere else for a mistake or a fault he
+or she did, Islam has its own methods of disciplining kids. Hitting is not among
+those methods unless the educator has exhausted all means and ways of correction
+and discipline. Here, I have to add that Prophet Muhammad \hon{\PBUH}{\BODY}
+never hit a child in his life.
+
+Thus, the mosque imam and others should avoid hitting or beating kids. It has
+been proven that hitting kids instills fear in their hearts.
+
+Having stated the above, one should not neglect the cultural aspect of the
+issue. There is a great need to change many of the styles and methods that we
+use to discipline our kids. Among those methods is the culture of hitting and
+shouting at kids when they need more friendly approaches and methods. Loving
+kids is a Sunnah of the Prophet \hon{\PBUH}{\BODY}. He used to love children and
+play with them from time to time, and he used to give them salām when he met
+them. May Allah help us to follow the Sunnah of the Prophet \hon{\PBUH}{\BODY}.
+
+Allah Almighty knows best.
+
+
+
+
+
+### Can a Muslim study in a Catholic school?
+
+\QUESTION{112}{13}{3}{Submitted by Fabio from Brazil on Mar 31, 2003}
+
+My daughter is studying in a Christian school because there is no Islamic school
+near my home. Is there any problem with that? Thanks.
+
+\ANSWER
+
+In the Name of Allah, Most Gracious, Most Merciful.
+All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
+
+There is no problem in your daughter studying in a Christian school so long as
+you make sure that she doesn’t go astray and you pay special care to her morals.
+This needs your constant follow-up and guidance.
+
+Added to the above, I earnestly advise you to be sure that your daughter is
+separated when the time for the Bible class comes. To ensure this, you can ask
+the management of the school to do that.
+
+If there is no way to take the daughter outside the classroom during that time,
+then you have to guide her and correct any wrong belief that she may acquire.
+
+Allah Almighty knows best.
+
+## Miscellaneous Education-Related Matters
+
+### Responding to inaccurate information published about Islam
 
 \QUESTION{106}{7}{3}{Submitted by Danial from Malaysia on May 12, 2003}
 
@@ -347,11 +477,11 @@ these writers who surely didn’t witness any of these fabricated conclusions th
 they are peddling.
 
 The role of the holy city of Makkah was never replaced by any city in the north
-or south, nor the role of the Prophet ﷺ change at all. Therefore, I shall humbly
-appeal to these writers to refer to hundreds of books and articles written by
-the fellow historians in the West in order for them to have better understanding
-of the life the Prophet. They have to be honest and scientific in their
-judgments and analysis.
+or south, nor the role of the Prophet \hon{\PBUH}{\BODY} change at all.
+Therefore, I shall humbly appeal to these writers to refer to hundreds of books
+and articles written by the fellow historians in the West in order for them to
+have better understanding of the life the Prophet. They have to be honest and
+scientific in their judgments and analysis.
 
 Finally, I am amazed that these historians don’t know that the Qurʾān was
 compiled in Medina, not in Iraq at all. The first compilation took place during
@@ -364,70 +494,8 @@ beauty of this great and wonderful religion (Islam). Allah Almighty knows best.
 
 
 
-## Internet-based learning
-
-\QUESTION{108}{9}{3}{Submitted by Abu Bilal on Feb 23, 2004}
-
-Is there a need for internet-based learning in the near future?
-
-\ANSWER
-
-In the Name of Allah, Most Gracious, Most Merciful.
-All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
-
-Thanks for your question. Indeed, it is an obligation upon Muslims nowadays to
-contribute and develop more internet-based learning for the propagation of the
-true Islam and correction of many wrong images that Islam and Muslims have been
-victims of it.
-
-I call upon all Muslims, both leaders and followers, to do their best to develop
-and equip Muslim countries and communities with skills and deep knowledge of the
-Internet. It is an important and vital tool for better communication with
-nations and civilisations.
-
-All in all, there is a dire need for internet-based learning for all Muslims
-around the globe.
-
-Allah Almighty knows best.
-
-## Etiquette of the Seeker of Knowledge
-
-\QUESTION{109}{10}{3}{Submitted by Sana on Jan 5, 2004}
-
-I want to ask you about the relationship between the student and the teacher
-from an Islamic perspective. I also want to ask you, how shall a student react
-towards his teacher if he is being mistreated?
-
-\ANSWER
-
-In the Name of Allah, Most Gracious, Most Merciful.
-All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
-
-The relationship between teacher and student should be based on mutual love and
-respect. A teacher should treat his students like his own sons, and the student
-should consider his teacher like his own father.
-
-In this regard, they should exchange respect and love within Islamic principles.
-If a teacher has been mistreated, the student should do their best to assist the
-teacher in getting back his right. However, one should make sure that their
-teacher has indeed been mistreated based on evidence and proof, not on passion
-and sympathy. Islam calls upon all Muslims to help their fellow Muslims when an
-injustice is done against one of them. In this regard, students should do their
-best to remove injustice done against their teacher.
-
-Having said this, I can say that if the teacher has mistreated his student, the
-student has the right to complain officially. However, the student should always
-consider the teacher like his or her father. He should not try to put him in
-trouble. He should find ways and means to get his rights without hurting his
-teacher. Mutual understanding and tolerance are highly recommended in this case.
-
-Surely, Islam calls upon teachers to be fair and honest. The teacher has to be a
-model to be followed; he should not do injustice to his students. If he does so,
-he will certainly face dire consequences on the Day of Judgment. Allah Almighty
-knows best.
-
-
-## Seeking knowledge: A key to gaining Allah’s Pleasure
+<!-- TODO: This seems out of place -->
+### Seeking knowledge: A key to gaining Allah’s Pleasure
 
 \QUESTION{110}{11}{3}{Submitted by Tarek on Mar 29, 2004}
 
@@ -453,70 +521,5 @@ In this regard, you should fully concentrate on your education. Perhaps, one day
 you will contribute to the well-being of the Muslim ummah in your place.
 Studying is considered as worship (_ʿibādah_), and you are rewarded for it. Its
 reward might be higher than collecting money for charity nowadays.
-
-Allah Almighty knows best.
-
-
-
-## Discipline: Hitting and verbally abusing children
-
-\QUESTION{111}{12}{3}{Submitted by Rafiq on Apr 21, 2003}
-
-Can a mosque imam hit a child for whatever reason? Can he hit a child at all? If
-so, what are the limits that a child can be hit, i.e., on the face, on the back,
-or where?
-
-\ANSWER
-
-In the Name of Allah, Most Gracious, Most Merciful.
-All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
-
-Islam does not allow hitting a child or a person on his or her face at all. It
-is prohibited to hit anybody on the face no matter what the crime of the person,
-as the Prophet \hon{\PBUH}{\BODY} prohibited that.
-
-As for hitting a child on the back or somewhere else for a mistake or a fault he
-or she did, Islam has its own methods of disciplining kids. Hitting is not among
-those methods unless the educator has exhausted all means and ways of correction
-and discipline. Here, I have to add that Prophet Muhammad \hon{\PBUH}{\BODY}
-never hit a child in his life.
-
-Thus, the mosque imam and others should avoid hitting or beating kids. It has
-been proven that hitting kids instills fear in their hearts.
-
-Having stated the above, one should not neglect the cultural aspect of the
-issue. There is a great need to change many of the styles and methods that we
-use to discipline our kids. Among those methods is the culture of hitting and
-shouting at kids when they need more friendly approaches and methods. Loving
-kids is a Sunnah of the Prophet \hon{\PBUH}{\BODY}. He used to love children and
-play with them from time to time, and he used to give them salām when he met
-them. May Allah help us to follow the Sunnah of the Prophet \hon{\PBUH}{\BODY}.
-
-Allah Almighty knows best.
-
-
-
-## Can a Muslim study in a Catholic school?
-
-\QUESTION{112}{13}{3}{Submitted by Fabio from Brazil on Mar 31, 2003}
-
-My daughter is studying in a Christian school because there is no Islamic school
-near my home. Is there any problem with that? Thanks.
-
-\ANSWER
-
-In the Name of Allah, Most Gracious, Most Merciful.
-All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
-
-There is no problem in your daughter studying in a Christian school so long as
-you make sure that she doesn’t go astray and you pay special care to her morals.
-This needs your constant follow-up and guidance.
-
-Added to the above, I earnestly advise you to be sure that your daughter is
-separated when the time for the Bible class comes. To ensure this, you can ask
-the management of the school to do that.
-
-If there is no way to take the daughter outside the classroom during that time,
-then you have to guide her and correct any wrong belief that she may acquire.
 
 Allah Almighty knows best.

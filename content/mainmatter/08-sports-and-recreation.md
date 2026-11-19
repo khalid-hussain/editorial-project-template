@@ -312,7 +312,9 @@ knowledge in any important fields related to or close to their specialisation.
 Allah Almighty knows best.
 
 
-## Should girls be allowed to learn to swim?
+## Miscellaneous Questions
+
+### Should girls be allowed to learn to swim?
 
 \QUESTION{192}{8}{8}{Submitted by Maryam from the United States on Jun 7, 2004}
 
@@ -370,7 +372,7 @@ Allah Almighty knows best.
 
 
 
-## Can Muslims play pool, chess, or PC games?
+### Can Muslims play pool, chess, or PC games?
 
 \QUESTION{193}{9}{8}{Submitted by on Jul 5, 2004}
 

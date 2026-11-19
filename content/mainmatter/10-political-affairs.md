@@ -721,6 +721,85 @@ Allah Almighty knows best.
 
 
 
+### The Role of Muslim Governments against the Blockade of Palestine
+
+\QUESTION{222}{24}{10}{Submitted on May 14, 2006}
+
+We have all heard about the financial blockade on Palestine. What is the role of
+Muslim individuals and governments toward Palestine?
+
+\ANSWER
+
+Thank you for your question.
+
+I believe that all Muslims must do their best to assist oppressed Palestinian
+people in all possible ways. They must remember them in their supplications. It
+is a duty upon every Muslim to do so.
+
+As for the specific role of Muslim individuals and governments, I believe that
+there must be coordination and cooperation between the people and their
+governments. Certainly, no Muslim individual or decent government would like to
+see more pain and hardship for the Palestinian people. Therefore, there must be
+cooperation and strategic move from peoples as well as governments in order to
+assist the Palestinians in these difficult times.
+
+In other words, individuals must donate as much as they can to the Palestinians.
+And the governments---including the Palestinian government---must find political
+solutions to this crisis. The interests of the Palestinian people must be placed
+above all other interests and considerations.
+
+Muslim leaders should do their best to uproot the causes and sources of this
+unjust and unfair punishment of Palestinians. Political ideologies and agendas
+should be put aside for the sake of hungry, thirsty, and oppressed Palestinians.
+
+All individuals and governments must do whatever they can to help the helpless
+Palestinians by assisting and donating to the legal authorities, either in cash
+or in kind, or even in spirit. It is a sinful act to see fellow Muslims living
+in hunger and hardship without lending them a helping hand.
+
+May Allah be with the Palestinian people and reward those people who will put an
+end to this critical and human crisis.
+
+
+
+\QUESTION{223}{25}{10}{Submitted by Ali on May 16, 2006}
+
+Respected scholars, _As-Salāmu ʿalaykum_. Could you please shed some light on
+the attitude of some Muslim governments that help in one way or the other the
+Western economic blockade against the Palestinian government? _Jazākum Allahu
+khayran_.
+
+\ANSWER
+
+This issue has political and human aspects. The Muslim governments, including
+the Palestinian government, must find decent and comprehensive solutions to this
+critical and painful problem.
+
+It is a duty upon them to fear Allah and to think about the interest of the
+Palestinian people. The governments must put aside all differences and
+disagreements for the sake of the Palestinian people. I appeal to the
+Palestinian government to work hand in hand with other Muslim governments to put
+a quick end to this shameful and inhuman crisis. I believe that the solutions
+are in the hands of Muslim governments, including the Palestinian government.
+
+It is common knowledge that Muslim governments will be asked on the Day of
+Judgment about this issue if they let the Palestinian people suffer more than
+what they have suffered for decades.
+
+All in all, I respectfully and sincerely appeal to all Muslims, especially the
+governments, to find a quick solution to this problem!
+
+In particular, I call upon the Organization of the Islamic Conference (OIC) to
+call for an urgent summit or meeting to discuss the solution to this horrible
+condition facing the helpless Palestinians. The OIC must do its level best, as
+it was created in response to the attacks against Al-Aqṣā. Therefore, the raison
+d’etre of this organisation is the Palestinian issue! May Allah be with them and
+show Muslim governments the way out of this crisis.
+
+
+
+
+
 ## The Iraqi Issue
 
 ### Muslims support of political forces killing fellow Muslims
@@ -862,8 +941,9 @@ Allah Almighty knows best.
 
 
 
+## Miscellaneous Questions
 
-## The role of Muslim leaders in the aggression against Muslims
+### The role of Muslim leaders in the aggression against Muslims
 
 \QUESTION{220}{22}{10}{Submitted by Sami from the United Kingdom on Jul 27, 2006}
 
@@ -917,84 +997,11 @@ atrocity and genocide!
 
 
 
-## The Role of Muslim Governments against the Blockade of Palestine
-
-\QUESTION{222}{24}{10}{Submitted on May 14, 2006}
-
-We have all heard about the financial blockade on Palestine. What is the role of
-Muslim individuals and governments toward Palestine?
-
-\ANSWER
-
-Thank you for your question.
-
-I believe that all Muslims must do their best to assist oppressed Palestinian
-people in all possible ways. They must remember them in their supplications. It
-is a duty upon every Muslim to do so.
-
-As for the specific role of Muslim individuals and governments, I believe that
-there must be coordination and cooperation between the people and their
-governments. Certainly, no Muslim individual or decent government would like to
-see more pain and hardship for the Palestinian people. Therefore, there must be
-cooperation and strategic move from peoples as well as governments in order to
-assist the Palestinians in these difficult times.
-
-In other words, individuals must donate as much as they can to the Palestinians.
-And the governments---including the Palestinian government---must find political
-solutions to this crisis. The interests of the Palestinian people must be placed
-above all other interests and considerations.
-
-Muslim leaders should do their best to uproot the causes and sources of this
-unjust and unfair punishment of Palestinians. Political ideologies and agendas
-should be put aside for the sake of hungry, thirsty, and oppressed Palestinians.
-
-All individuals and governments must do whatever they can to help the helpless
-Palestinians by assisting and donating to the legal authorities, either in cash
-or in kind, or even in spirit. It is a sinful act to see fellow Muslims living
-in hunger and hardship without lending them a helping hand.
-
-May Allah be with the Palestinian people and reward those people who will put an
-end to this critical and human crisis.
 
 
 
-\QUESTION{223}{25}{10}{Submitted by Ali on May 16, 2006}
 
-Respected scholars, _As-Salāmu ʿalaykum_. Could you please shed some light on
-the attitude of some Muslim governments that help in one way or the other the
-Western economic blockade against the Palestinian government? _Jazākum Allahu
-khayran_.
-
-\ANSWER
-
-This issue has political and human aspects. The Muslim governments, including
-the Palestinian government, must find decent and comprehensive solutions to this
-critical and painful problem.
-
-It is a duty upon them to fear Allah and to think about the interest of the
-Palestinian people. The governments must put aside all differences and
-disagreements for the sake of the Palestinian people. I appeal to the
-Palestinian government to work hand in hand with other Muslim governments to put
-a quick end to this shameful and inhuman crisis. I believe that the solutions
-are in the hands of Muslim governments, including the Palestinian government.
-
-It is common knowledge that Muslim governments will be asked on the Day of
-Judgment about this issue if they let the Palestinian people suffer more than
-what they have suffered for decades.
-
-All in all, I respectfully and sincerely appeal to all Muslims, especially the
-governments, to find a quick solution to this problem!
-
-In particular, I call upon the Organization of the Islamic Conference (OIC) to
-call for an urgent summit or meeting to discuss the solution to this horrible
-condition facing the helpless Palestinians. The OIC must do its level best, as
-it was created in response to the attacks against Al-Aqṣā. Therefore, the raison
-d’etre of this organisation is the Palestinian issue! May Allah be with them and
-show Muslim governments the way out of this crisis.
-
-
-
-## Muslims uniting through the use of the internet
+### Muslims uniting through the use of the internet
 
 \QUESTION{224}{26}{10}{Submitted by Ibrahim on Feb 23, 2004}
 
@@ -1028,7 +1035,7 @@ Allah Almighty knows best.
 
 
 
-## Voting for a US Candidate Supporting Attacks against Muslims
+### Voting for a US Candidate Supporting Attacks against Muslims
 
 \QUESTION{225}{27}{10}{Submitted by Robin from the United States on Mar 29, 2004}
 
@@ -1077,7 +1084,7 @@ Allah Almighty knows best.
 
 
 
-## Women holding public positions
+### Women holding public positions
 
 \QUESTION{226}{28}{10}{Submitted by Lene from Denmark on Mar 29, 2004}
 

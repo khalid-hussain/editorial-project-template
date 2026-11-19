@@ -7,6 +7,58 @@ Family Affairs
 
 ## Marriage Guidelines
 
+### Relationship between the engaged couple
+
+\QUESTION{77}{8}{2}{Submitted by Catherine on May 12, 2003}
+
+My fiancé lives abroad, and my mother and I are planning to go and visit him. My
+concern is that we are planning to stay with him. There are two bedrooms in the
+apartment, and of course, I will be staying with my mother. Is this within the
+bounds of the Qurʾān and the Sunnah? Please advise. Thanks.
+
+\ANSWER
+
+In the Name of Allah, Most Gracious, Most Merciful.
+All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
+
+May Allah help you and your fiancé to materialise your marriage as soon as
+possible.
+
+As you know well, engagement does not qualify as a marriage relationship but is
+merely a promise to marry. Therefore, it is totally different from marriage, and
+your relationship with your fiancé is like your relation vis-à-vis any stranger.
+
+Accordingly, you are not advised to stay with him in the same apartment at all
+even if you are going to stay with your mother. I shall remind you that any
+contact with him should be in the presence of an unmarriageable male (_maḥram_).
+May Allah bless you all.
+
+Allah Almighty knows best.
+
+
+
+\QUESTION{78}{9}{2}{Submitted by A on Feb 23, 2004}
+
+If two people are engaged, can they use e-mail to get to know each other? Or is
+this considered seclusion (_khalwah_), so a third party must be present?
+
+\ANSWER
+
+In the Name of Allah, Most Gracious, Most Merciful.
+All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
+
+There is no harm for the engaged couple to communicate with each other via
+e-mail as long as the content of the communication doesn’t go against the
+teachings of Islam. Having said this, they should also observe the Islamic
+teachings in the words they use.
+
+If both parties commit themselves to the Islamic etiquettes of talking between
+members of the opposite sex, then there is no need for a third party to be
+present.
+
+Allah Almighty knows best.
+
+
 ### Qualities to look for in a spouse
 
 \QUESTION{70}{1}{2}{Submitted by Fareed on Mar 29, 2004}
@@ -291,187 +343,25 @@ _Āmīn_.
 Allah Almighty knows best.
 
 
-## Marriage before older siblings
 
-\QUESTION{76}{7}{2}{Submitted by PAS on Apr 21, 2003}
 
-Is it permissible for me to marry before my brothers and sisters? I am the
-second in order among them. How grave is this act?
 
-\ANSWER
 
-In the Name of Allah, Most Gracious, Most Merciful.
-All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
 
-Yes, it is permissible for you to get married before your brothers and sisters
-if you wish to do so. Your marriage doesn’t depend on their marriage. However,
-you should assist and encourage them to follow your steps in this matter.
 
-Allah Almighty knows best.
 
 
 
 
 
-## Relationship between the engaged couple
 
-\QUESTION{77}{8}{2}{Submitted by Catherine on May 12, 2003}
 
-My fiancé lives abroad, and my mother and I are planning to go and visit him. My
-concern is that we are planning to stay with him. There are two bedrooms in the
-apartment, and of course, I will be staying with my mother. Is this within the
-bounds of the Qurʾān and the Sunnah? Please advise. Thanks.
 
-\ANSWER
 
-In the Name of Allah, Most Gracious, Most Merciful.
-All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
 
-May Allah help you and your fiancé to materialise your marriage as soon as
-possible.
 
-As you know well, engagement does not qualify as a marriage relationship but is
-merely a promise to marry. Therefore, it is totally different from marriage, and
-your relationship with your fiancé is like your relation vis-à-vis any stranger.
 
-Accordingly, you are not advised to stay with him in the same apartment at all
-even if you are going to stay with your mother. I shall remind you that any
-contact with him should be in the presence of an unmarriageable male (_maḥram_).
-May Allah bless you all.
-
-Allah Almighty knows best.
-
-
-
-\QUESTION{78}{9}{2}{Submitted by A on Feb 23, 2004}
-
-If two people are engaged, can they use e-mail to get to know each other? Or is
-this considered seclusion (_khalwah_), so a third party must be present?
-
-\ANSWER
-
-In the Name of Allah, Most Gracious, Most Merciful.
-All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
-
-There is no harm for the engaged couple to communicate with each other via
-e-mail as long as the content of the communication doesn’t go against the
-teachings of Islam. Having said this, they should also observe the Islamic
-teachings in the words they use.
-
-If both parties commit themselves to the Islamic etiquettes of talking between
-members of the opposite sex, then there is no need for a third party to be
-present.
-
-Allah Almighty knows best.
-
-
-
-
-
-## Conjugal relationships after the marriage contract but before the wedding celebration (_walīmah_)
-
-\QUESTION{79}{10}{2}{Submitted by Habib from the United States on Jan 5, 2004}
-
-_As-Salāmu ʿalaykum_. I had _katb al-kitāb_ with my cousin about a month ago. Thus,
-Islamically we are married, but we are not going to have our wedding feast until
-next year. Is it permissible if we sleep together? We have already done so, and
-we enjoyed ourselves, but we didn’t have real intercourse because we are waiting
-until our wedding night. Could you please advise me?
-
-\ANSWER
-
-_Wa ʿalaykum as-Salām wa raḥmatullāhi wa barakātuh_.
-
-In the Name of Allah, Most Gracious, Most Merciful.
-All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
-
-May Allah guide you and your cousin. If you mean by _katb al-kitāb_ an
-engagement (_khiṭbah_), I should inform you that _khiṭbah_ is just a promise to
-get married, and hence, it is not a marriage; therefore, your relationship with
-your cousin still remains the same as before the marriage.
-
-In other words, you are not allowed to be with her without the presence of an
-unmarriageable male (_maḥram_). Thus, she is a stranger to you until the
-marriage contract is done. Therefore, you and your beloved cousin should stop
-any type of contact leading to sinful relations such as sleeping or playing
-together. It is not allowed at all.
-
-Having said this, I call upon you and your cousin to have a marriage contract on
-the spot. As for the wedding celebration, you have the right to postpone it to a
-time of your convenience. May Allah Almighty grant both of you strong _īmān_.
-
-On the other hand, if you mean by _katb al-kitāb_ that you have contracted the
-marriage but did not yet have the wedding celebration, then there is no harm in
-having the said relations. Thus, you are considered a married couple, and Islam
-recommends that married couples have nice and lovely relations all the time as
-stated in the Qurʾan: “And one of His signs is that He created for you spouses
-from among yourselves so that you may find comfort in them, and He has created
-love and kindness between you. Surely in this are signs for people who reflect.”
-(Al-Rūm, 30:21)
-
-As stated early, there is no harm, in this case, to sleep together. The wedding
-feast is not a pre-condition, but it is strongly recommended by the Prophet
-\hon{\PBUH}{\BODY}.
-
-Allah Almighty knows best.
-
-
-
-
-
-## Conjugal relationships with a slave woman and what constitutes _zinā_
-
-\QUESTION{80}{11}{2}{Submitted by Babar from Pakistan on Feb 23, 2004}
-
-_As-Salāmu ʿalaykum_. Yesterday, I was sitting with my friends, and one of them
-made the following claims:
-
-1.	We can have sex with a bandī (that is, a woman whom we purchase or capture
-    during wars), and these women are halal without a marriage contract and
-    without their permission or willingness.
-
-2.	We can have sex with a woman whom we purchased (paying cash to her or those
-    who sell her) even for one night.
-
-I am really confused and upset as well. How come such an act is permissible in
-Islam while there is heavy punishment for _zinā_? And if the above two are okay,
-then what is _zinā_?
-
-\ANSWER
-
-_Wa ʿalaykum as-Salām wa raḥmatullāhi wa barakātuh_.
-
-In the Name of Allah, Most Gracious, Most Merciful.
-All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
-
-May Allah guide us all to the Straight Path. Islam recognises the rights and
-dignity of the captives. First of all, one has to bear in mind that the war must
-be justified and lawful according to Islamic teachings. It should be allowed
-under the jurisdiction of the leaders not individuals. In addition to that,
-whoever is interested in getting married to a female captive, he must follow
-recommended procedures as stated in the Qurʾān: “But if any of you cannot afford
-to marry a free believing woman, then ˹let him marry˺ a believing bondwoman
-possessed by one of you. Allah knows best ˹the state of˺ your faith ˹and
-theirs˺. You are from one another. So marry them with the permission of their
-owners, giving them their dowry in fairness, if they are chaste, neither
-promiscuous nor having secret affairs...” (Al-Nisāʾ, 4:25)
-
-As for having sex with a woman you purchase, there is no such thing in Islam,
-and this is considered as clear _zinā_ that is prohibited in Islam. I am
-wondering where you found such a statement or opinion in Islam. The meaning of
-marriage in Islam is not limited to sexual relations between a man and woman;
-rather, it entails compassion, love, tranquility and respect. Therefore, Islam
-prohibits _zinā_ because it does not have all these meanings. It is always for
-the sex only. I hope you will clear the name of Islam from such statements and
-accusations.
-
-Allah Almighty knows best.
-
-
-
-
-
-## The rights and obligations of spouses
+## The Rights and Obligations of Spouses
 
 ### Conjugal relations between married couples
 
@@ -626,7 +516,35 @@ performing your religious duties or practicing this great religion. Finally, may
 Allah protect you both and strengthen your faith and practice.
 
 
-## Marriage of a Muslim man to a woman not from the People of the Book (Ahl al-Kitāb) and divorcing her
+
+
+
+
+## Miscellaneous Marriage-Related Matters
+
+### Marriage before older siblings
+
+\QUESTION{76}{7}{2}{Submitted by PAS on Apr 21, 2003}
+
+Is it permissible for me to marry before my brothers and sisters? I am the
+second in order among them. How grave is this act?
+
+\ANSWER
+
+In the Name of Allah, Most Gracious, Most Merciful.
+All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
+
+Yes, it is permissible for you to get married before your brothers and sisters
+if you wish to do so. Your marriage doesn’t depend on their marriage. However,
+you should assist and encourage them to follow your steps in this matter.
+
+Allah Almighty knows best.
+
+
+
+
+
+### Marriage of a Muslim man to a woman not from the People of the Book (Ahl al-Kitāb) and divorcing her
 
 \QUESTION{85}{16}{2}{Submitted by Salma from the United States on Jul 19, 2004}
 
@@ -694,6 +612,113 @@ I am sure that he is fully aware of the prohibition of this marriage. May Allah
 guide him and protect you against all his wrongdoing.
 
 Allah Almighty knows best.
+
+
+
+
+
+### Conjugal relationships after the marriage contract but before the wedding celebration (_walīmah_)
+
+\QUESTION{79}{10}{2}{Submitted by Habib from the United States on Jan 5, 2004}
+
+_As-Salāmu ʿalaykum_. I had _katb al-kitāb_ with my cousin about a month ago. Thus,
+Islamically we are married, but we are not going to have our wedding feast until
+next year. Is it permissible if we sleep together? We have already done so, and
+we enjoyed ourselves, but we didn’t have real intercourse because we are waiting
+until our wedding night. Could you please advise me?
+
+\ANSWER
+
+_Wa ʿalaykum as-Salām wa raḥmatullāhi wa barakātuh_.
+
+In the Name of Allah, Most Gracious, Most Merciful.
+All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
+
+May Allah guide you and your cousin. If you mean by _katb al-kitāb_ an
+engagement (_khiṭbah_), I should inform you that _khiṭbah_ is just a promise to
+get married, and hence, it is not a marriage; therefore, your relationship with
+your cousin still remains the same as before the marriage.
+
+In other words, you are not allowed to be with her without the presence of an
+unmarriageable male (_maḥram_). Thus, she is a stranger to you until the
+marriage contract is done. Therefore, you and your beloved cousin should stop
+any type of contact leading to sinful relations such as sleeping or playing
+together. It is not allowed at all.
+
+Having said this, I call upon you and your cousin to have a marriage contract on
+the spot. As for the wedding celebration, you have the right to postpone it to a
+time of your convenience. May Allah Almighty grant both of you strong _īmān_.
+
+On the other hand, if you mean by _katb al-kitāb_ that you have contracted the
+marriage but did not yet have the wedding celebration, then there is no harm in
+having the said relations. Thus, you are considered a married couple, and Islam
+recommends that married couples have nice and lovely relations all the time as
+stated in the Qurʾan: “And one of His signs is that He created for you spouses
+from among yourselves so that you may find comfort in them, and He has created
+love and kindness between you. Surely in this are signs for people who reflect.”
+(Al-Rūm, 30:21)
+
+As stated early, there is no harm, in this case, to sleep together. The wedding
+feast is not a pre-condition, but it is strongly recommended by the Prophet
+\hon{\PBUH}{\BODY}.
+
+Allah Almighty knows best.
+
+
+
+
+
+### Conjugal relationships with a slave woman and what constitutes _zinā_
+
+\QUESTION{80}{11}{2}{Submitted by Babar from Pakistan on Feb 23, 2004}
+
+_As-Salāmu ʿalaykum_. Yesterday, I was sitting with my friends, and one of them
+made the following claims:
+
+1.	We can have sex with a _bandī_ (that is, a woman whom we purchase or capture
+    during wars), and these women are halal without a marriage contract and
+    without their permission or willingness.
+
+2.	We can have sex with a woman whom we purchased (paying cash to her or those
+    who sell her) even for one night.
+
+I am really confused and upset as well. How come such an act is permissible in
+Islam while there is heavy punishment for _zinā_? And if the above two are okay,
+then what is _zinā_?
+
+\ANSWER
+
+_Wa ʿalaykum as-Salām wa raḥmatullāhi wa barakātuh_.
+
+In the Name of Allah, Most Gracious, Most Merciful.
+All praise and thanks are due to Allah, and peace and blessings be upon His Messenger.
+
+May Allah guide us all to the Straight Path. Islam recognises the rights and
+dignity of the captives. First of all, one has to bear in mind that the war must
+be justified and lawful according to Islamic teachings. It should be allowed
+under the jurisdiction of the leaders not individuals. In addition to that,
+whoever is interested in getting married to a female captive, he must follow
+recommended procedures as stated in the Qurʾān: “But if any of you cannot afford
+to marry a free believing woman, then ˹let him marry˺ a believing bondwoman
+possessed by one of you. Allah knows best ˹the state of˺ your faith ˹and
+theirs˺. You are from one another. So marry them with the permission of their
+owners, giving them their dowry in fairness, if they are chaste, neither
+promiscuous nor having secret affairs...” (Al-Nisāʾ, 4:25)
+
+As for having sex with a woman you purchase, there is no such thing in Islam,
+and this is considered as clear _zinā_ that is prohibited in Islam. I am
+wondering where you found such a statement or opinion in Islam. The meaning of
+marriage in Islam is not limited to sexual relations between a man and woman;
+rather, it entails compassion, love, tranquility and respect. Therefore, Islam
+prohibits _zinā_ because it does not have all these meanings. It is always for
+the sex only. I hope you will clear the name of Islam from such statements and
+accusations.
+
+Allah Almighty knows best.
+
+
+
+
 
 ## The Rights of Children
 
@@ -764,8 +789,9 @@ Allah Almighty knows best.
 
 
 
+## Kinship-Related Matters
 
-## Non-Muslims as guardians
+### Non-Muslims as guardians
 
 \QUESTION{88}{19}{2}{Submitted by Muslim on, May 12, 2003}
 
@@ -811,7 +837,7 @@ the legal maxim which states that “all means leading to evil must be blocked.�
 Allah Almighty knows best.
 
 
-## Treatment of non-Muslim parents
+### Treatment of non-Muslim parents
 
 \QUESTION{89}{20}{2}{Submitted by Romana on Mar 31, 2003}
 
@@ -913,7 +939,7 @@ Allah Almighty knows best.
 
 
 
-## Islam’s care for ties of kinship
+### Islam’s care for ties of kinship
 
 \QUESTION{91}{22}{2}{Submitted on Jan 5, 2004}
 
@@ -948,7 +974,7 @@ Allah Almighty knows best.
 
 
 
-## The Meaning of the _hadith_ “the in-law is death”
+### The Meaning of the _hadith_ “the in-law is death”
 
 \QUESTION{92}{23}{2}{Submitted by Nissar from India on Jul 19, 2004}
 

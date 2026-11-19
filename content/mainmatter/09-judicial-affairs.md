@@ -5,7 +5,9 @@ Judicial Affairs
 
 # Judicial Affairs
 
-## Definition of _Fatwa_
+## Assorted Questions
+
+### Definition of _Fatwa_
 
 \QUESTION{194}{1}{9}{Submitted by Mike on Feb 25, 2003}
 
@@ -32,7 +34,7 @@ Allah Almighty knows best.
 
 
 
-## Differences between schools of fiqh
+### Differences between schools of fiqh
 
 \QUESTION{195}{2}{9}{Submitted by Meeran on Jul 5, 2004}
 
@@ -58,7 +60,7 @@ Allah Almighty knows best.
 
 
 
-## Misconceptions about applying Sharīʿah law
+### Misconceptions about applying Sharīʿah law
 
 \QUESTION{196}{3}{9}{Submitted by Kamal Funsho from Nigeria on Nov 28, 2005}
 
@@ -104,7 +106,7 @@ would be refuted.
 
 
 
-## Does Islam Call for Killing?
+### Does Islam Call for Killing?
 
 \QUESTION{197}{4}{9}{Submitted by Drame Mohamed from Angola on Jun 15, 2003}
 
@@ -140,7 +142,7 @@ Allah Almighty knows best.
 
 
 
-## Verbally denouncing one’s faith to save one’s life
+### Verbally denouncing one’s faith to save one’s life
 
 \QUESTION{198}{5}{9}{Submitted by Nabil from Canada on Mar 31, 2003}
 

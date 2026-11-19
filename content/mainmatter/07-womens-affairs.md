@@ -5,9 +5,9 @@ Women's Affairs
 
 # Women's Affairs
 
-## Ḥijāb and adornment
+## _Ḥijāb_ and Adornment
 
-### The basics of ḥijāb
+### The basic of _ḥijāb_
 
 Submitted by Nayeefa from Japan on Jan 5, 2004
 
@@ -151,7 +151,7 @@ Allah Almighty knows best.
 
 
 
-### Wearing ḥijāb in front of relatives with disabilities
+### Wearing _ḥijāb_ in front of relatives with disabilities
 
 \QUESTION{176}{3}{7}{Submitted by Muhammad from Alaska on Dec 17, 2003}
 
@@ -316,8 +316,9 @@ of Allah has certainly suffered a tremendous loss,” (Al-Nisāʾ, 4:119).
 
 Allah Almighty knows best.
 
+## Miscellaneous Matters
 
-## Women traveling without a _maḥram_
+### Women traveling without a _maḥram_
 
 \QUESTION{181}{8}{7}{Submitted by Salma from Canada on Mar 29, 2004}
 
@@ -383,7 +384,7 @@ Allah Almighty knows best.
 
 
 
-## Polygamy and women
+### Polygamy and women
 
 \QUESTION{183}{10}{7}{Submitted by Albania on Apr 21, 2003}
 
@@ -429,7 +430,7 @@ Allah Almighty knows best.
 
 
 
-## Is the _diyyah_ of a woman half that of a man?
+### Is the _diyyah_ of a woman half that of a man?
 
 \QUESTION{184}{11}{7}{Submitted by Sayed on Feb 25, 2003}
 
